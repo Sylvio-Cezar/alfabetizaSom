@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "amigoBarbeiro",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
