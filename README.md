@@ -1,5 +1,11 @@
 ## Guia de inicialização
 
+## Instalações necessárias
+- Node.js: https://nodejs.org/en/download --> Após a instalação, é necessário abrir o cmd e inserir o comando "npm install -g cordova ionic" 
+- VS Code: https://code.visualstudio.com/
+
+## 
+
 ## Estrutura do projeto
 
 ```
@@ -35,8 +41,8 @@
 
 O projeto é iniciado com os comandos regulares do Ionic.
 
-1. Execute o comando npm install para instalar todas as dependências.
-2. Execute o comando ionic serve para iniciar o ambiente de desenvolvimento.
-3. Para construir o projeto, execute ionic build android ou ionic build ios.
-
-Uma alternativa é emular o aplicativo em um dispositivo ou enviá-lo para a nuvem do Ionic. A partir daqui, você pode baixar o aplicativo Ionic View e utilizar o app em todos os dispositivos.
+1. Clone o repositório do projeto para seu computador --> "git clone {url_do_repositório}" via Git ou cmd.
+2. Adicione a pasta do projeto ao VS Code.
+3. Abra o terminal do VS Code e execute o comando "npm install" para instalar todas as dependências.
+4. Execute o comando "ionic serve" para iniciar o ambiente de desenvolvimento.
+5. Para construir o projeto, execute "ionic build android" ou "ionic build ios" (necessário apenas para testes finais da aplicação).
