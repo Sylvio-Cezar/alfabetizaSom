@@ -1,10 +1,13 @@
 ## Guia de inicialização
 
 ## Instalações necessárias
+
 - Node.js: https://nodejs.org/en/download --> Após a instalação, é necessário abrir o cmd e inserir o comando "npm install -g cordova ionic" 
 - VS Code: https://code.visualstudio.com/
 
-## 
+## Configuração das variáveis de ambiente do sistema 
+
+Disponível em breve.
 
 ## Estrutura do projeto
 
