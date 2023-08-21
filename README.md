@@ -14,7 +14,7 @@
 - Variáveis do sistema:
 
   ![image](https://github.com/Sylvio-Cezar/alfabetizaSom/assets/75698717/f491273d-f6cc-49d2-89c4-86db07d48e98)
-  ![image](https://github.com/Sylvio-Cezar/alfabetizaSom/assets/75698717/75915946-0365-41a8-b4d8-2906039aa45c)
+  ![image](https://github.com/Sylvio-Cezar/alfabetizaSom/assets/75698717/d58eed0d-4b55-4dad-a3b8-d76351406f0d)
 
 ## Estrutura do projeto
 
