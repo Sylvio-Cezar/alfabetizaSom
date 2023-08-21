@@ -7,7 +7,10 @@
 
 ## Configuração das variáveis de ambiente do sistema 
 
-Disponível em breve.
+- Variáveis de ambiente:
+  ![image](https://github.com/Sylvio-Cezar/alfabetizaSom/assets/75698717/d8858600-b029-44da-ad3d-ae3ae6a785c2)
+
+
 
 ## Estrutura do projeto
 
