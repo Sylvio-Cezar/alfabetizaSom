@@ -1,0 +1,95 @@
+.details-img {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+}
+
+ion-button {
+  margin: auto;
+  color: #000000;
+  --box-shadow: none;
+}
+
+.details-btn {
+  width: 180px;
+  font-size: 20px;
+  --background: transparent !important;
+
+  ion-icon {
+    margin-right: 10px;
+  }
+}
+
+.selected {
+  border-bottom: 5px dashed yellow;
+}
+
+.bottom-btn {
+  width: 240px;
+  font-size: 24px;
+  --background: transparent !important;
+}
+
+.sound-btn {
+  width: 75px;
+  height: 75px;
+  --background: url("../../assets/images/Notas-Musicais.png") no-repeat center center / cover !important;
+  margin-bottom: 75px;
+}
+
+//Botão sílabas
+
+.silabas {
+  margin: 10px 10px 10px 0;
+  padding-top: 10px;
+}
+
+.si {
+  width: 50px;
+  height: 50px;
+  background: url("../../assets/images/silabas/Si-BG.png") no-repeat center center / cover !important;
+}
+
+.la {
+  width: 50px;
+  height: 50px;
+  background: url("../../assets/images/silabas/La-BG.png") no-repeat center center / cover !important;
+}
+
+.bas {
+  width: 75px;
+  height: 50px;
+  background: url("../../assets/images/silabas/Bas-BG.png") no-repeat center center / cover !important;
+}
+
+//Botão quiz
+
+.quiz {
+  padding-top: 10px;
+}
+
+.q {
+  width: 75px;
+  height: 50px;
+  background: url("../../assets/images/quiz/Q-BG.png") no-repeat center center / cover !important;
+}
+
+.u {
+  margin-top: 25px;
+  width: 75px;
+  height: 50px;
+  background: url("../../assets/images/quiz/U-BG.png") no-repeat center center / cover !important;
+}
+
+.i {
+  width: 75px;
+  height: 50px;
+  background: url("../../assets/images/quiz/I-BG.png") no-repeat center center / cover !important;
+}
+
+.z {
+  margin-top: 25px;
+  width: 75px;
+  height: 50px;
+  background: url("../../assets/images/quiz/Z-BG.png") no-repeat center center / cover !important;
+}

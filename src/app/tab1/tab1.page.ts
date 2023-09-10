@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  public letra: String = "A";
+  public isPhoneme: boolean = true;
+
   constructor() {}
+
+  changePhoneme(value: boolean) {
+    this.isPhoneme = value;
+  }
 
 }

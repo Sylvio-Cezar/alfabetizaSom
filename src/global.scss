@@ -24,3 +24,23 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-title, ion-label, p, strong, ion-button {
+  font-family: cursive;
+}
+
+ion-toolbar {
+  height: 80px;
+  --padding-top: 15px;
+
+    .details-title {
+      text-align: center;
+      font-size: 30px;
+      margin-left: 15%;
+      width: 200px;
+    }
+}
+
+.content-bg {
+  --background: url("./assets/images/Detalhes-BG.jpg") no-repeat center center / cover !important;
+}
