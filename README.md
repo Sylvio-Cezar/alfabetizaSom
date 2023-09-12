@@ -16,6 +16,8 @@
   ![image](https://github.com/Sylvio-Cezar/alfabetizaSom/assets/75698717/f491273d-f6cc-49d2-89c4-86db07d48e98)
   ![image](https://github.com/Sylvio-Cezar/alfabetizaSom/assets/75698717/d58eed0d-4b55-4dad-a3b8-d76351406f0d)
 
+  OBS: utilizar Java 11.
+
 ## Estrutura do projeto
 
 ```
@@ -55,4 +57,4 @@ O projeto é iniciado com os comandos regulares do Ionic.
 2. Adicione a pasta do projeto ao VS Code.
 3. Abra o terminal do VS Code e execute o comando "npm install" para instalar todas as dependências.
 4. Execute o comando "ionic serve" para iniciar o ambiente de desenvolvimento.
-5. Para construir o projeto, execute "ionic build android" ou "ionic build ios" (necessário apenas para testes finais da aplicação).
+5. Para construir o projeto no dispositivo, execute "ionic capacitor run android" ou "ionic capacitor run ios" (necessário apenas para testes finais da aplicação).

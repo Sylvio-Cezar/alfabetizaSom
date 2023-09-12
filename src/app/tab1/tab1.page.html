@@ -30,10 +30,10 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <img class="details-img" src="../../assets/images/Detalhes-A.png" alt="Letra A">
+      <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A">
     </ion-row>
     <ion-row size="12">
-      <ion-button class="sound-btn">
+      <ion-button class="sound-btn" (click)="playSound()">
       </ion-button>
     </ion-row>
     <ion-row size="12">

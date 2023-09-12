@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895079223475",
+    "project_id": "alfabetizasom-38e57",
+    "storage_bucket": "alfabetizasom-38e57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895079223475:android:838b1d245b24888518e0c6",
+        "android_client_info": {
+          "package_name": "com.app.alfabetizasom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2e42RnDAUnxaBQfqOZRsLmmRuxataAbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
