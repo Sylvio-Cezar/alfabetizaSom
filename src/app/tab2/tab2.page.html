@@ -1,17 +1,43 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
+<ion-header translucent>
+  <ion-toolbar class="header-toolbar">
+    <ion-buttons slot="start">
+      <ion-back-button size="large" defaultHref="/tabs" class="menu-buttons"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title class="details-title">
+      <b>Alfabeto</b>
     </ion-title>
+
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content [fullscreen]="true" class="content-bg">
+  <ion-grid style="padding: 20px;">
+    <ion-row size="12">
+      <ion-col size="12" style="display: flex;">
+        <ion-title class="letter-title">
+          Letras
+        </ion-title>
+      </ion-col>
+    </ion-row>
+    <ion-row size="12">
+      <ion-col size="4" *ngFor="let _ of letras">
+        <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid style="padding: 20px;">
+    <ion-row size="12">
+      <ion-col size="12" style="display: flex;">
+        <ion-title class="letter-title">
+          Dígrafos
+        </ion-title>
+      </ion-col>
+    </ion-row>
+    <ion-row size="12">
+      <ion-col size="4" *ngFor="let _ of digrafos">
+        <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
