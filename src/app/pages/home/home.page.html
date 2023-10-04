@@ -21,8 +21,8 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <ion-col size="4" *ngFor="let _ of letras">
-        <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A">
+      <ion-col size="4" *ngFor="let l of letras">
+        <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A" (click)="openDetails(l)">
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -35,8 +35,8 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <ion-col size="4" *ngFor="let _ of digrafos">
-        <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A">
+      <ion-col size="4" *ngFor="let d of digrafos">
+        <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A" (click)="openDetails(d)">
       </ion-col>
     </ion-row>
   </ion-grid>

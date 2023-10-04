@@ -1,18 +1,16 @@
-import { Component } from '@angular/core';
-import { Platform } from '@ionic/angular';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-tab1',
-  templateUrl: 'tab1.page.html',
-  styleUrls: ['tab1.page.scss'],
+  selector: 'app-details',
+  templateUrl: './details.page.html',
+  styleUrls: ['./details.page.scss'],
 })
-export class Tab1Page {
+export class DetailsPage implements OnInit {
 
   public letra: string = "A";
   public isPhoneme: boolean = true;
   public imagemDetalheLetra: string = "";
   public snd = new Audio("../../assets/sounds/sfx-pop.mp3");
-
 
   constructor() {}
 
