@@ -11,6 +11,7 @@ export class DetailsPage implements OnInit {
   public isPhoneme: boolean = true;
   public imagemDetalheLetra: string = "";
   public snd = new Audio("../../assets/sounds/sfx-pop.mp3");
+  isPlaying: boolean = false;
 
   constructor() {}
 
@@ -19,7 +20,14 @@ export class DetailsPage implements OnInit {
   }
 
   playSound() {
-    this.snd.play();
+    if (this.isPlaying) {
+      this.snd.pause();
+      this.snd.currentTime = 0;
+      this.isPlaying = false;
+    } else {
+      this.snd.play();
+      this.isPlaying = true;
+    }
   }
 
   changePhoneme(value: boolean) {
