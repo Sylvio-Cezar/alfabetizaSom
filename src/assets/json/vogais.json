@@ -1,0 +1,71 @@
+{
+  "alfabeto_brasileiro": [
+    {
+      "nome_letra": "A",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-A.png",
+      "som_nome_letra": "som_a.mp3",
+      "fonemas": [
+        {
+          "fonema": "a",
+          "som_fonema": "som_a.mp3"
+        },
+        {
+          "fonema": "ã",
+          "som_fonema": "som_a_til.mp3"
+        }
+      ]
+    },
+    {
+      "nome_letra": "E",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-E.png",
+      "som_nome_letra": "som_e.mp3",
+      "fonemas": [
+        {
+          "fonema": "e",
+          "som_fonema": "som_e.mp3"
+        },
+        {
+          "fonema": "é",
+          "som_fonema": "som_e_acento_agudo.mp3"
+        }
+      ]
+    },
+    {
+      "nome_letra": "I",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-I.png",
+      "som_nome_letra": "som_i.mp3",
+      "fonemas": [
+        {
+          "fonema": "i",
+          "som_fonema": "som_i.mp3"
+        }
+      ]
+    },
+    {
+      "nome_letra": "O",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-O.png",
+      "som_nome_letra": "som_o.mp3",
+      "fonemas": [
+        {
+          "fonema": "o",
+          "som_fonema": "som_o.mp3"
+        },
+        {
+          "fonema": "ó",
+          "som_fonema": "som_o_acento_agudo.mp3"
+        }
+      ]
+    },
+    {
+      "nome_letra": "U",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-U.png",
+      "som_nome_letra": "som_u.mp3",
+      "fonemas": [
+        {
+          "fonema": "u",
+          "som_fonema": "som_u.mp3"
+        }
+      ]
+    }
+  ]
+}

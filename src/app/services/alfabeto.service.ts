@@ -12,6 +12,10 @@ export class AlfabetoService {
     return this.http.get('./assets/json/letras.json');
   }
 
+  getVogais(): Observable<any> {
+    return this.http.get('./assets/json/vogais.json');
+  }
+
   getDigrafos(): Observable<any> {
     return this.http.get('./assets/json/digrafos.json');
   }

@@ -30,26 +30,38 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A">
+      <img class="details-img" [src]="imagemDetalheLetra" alt="Letra {{letra}}">
     </ion-row>
-    <ion-row size="12">
-      <ion-button class="sound-btn" (click)="playSound()">
-      </ion-button>
+    <ion-row *ngIf="!isPhoneme" size="12">
+      <ion-col style="display: grid;">
+        <ion-label class="btn-fonema">
+          {{data.nome_letra}}
+        </ion-label>
+        <ion-button class="sound-btn" (click)="setAndPlaySound(data.som_nome_letra)"></ion-button>
+      </ion-col>
     </ion-row>
-    <ion-row size="12">
+    <ion-row *ngIf="isPhoneme" size="12">
+      <ion-col style="display: grid;" *ngFor="let f of data.fonemas">
+        <ion-label class="btn-fonema">
+          /{{f.fonema}}/
+        </ion-label>
+        <ion-button class="sound-btn" (click)="setAndPlaySound(f.som_fonema)"></ion-button>
+      </ion-col>
+    </ion-row>
+    <!-- <ion-row size="12">
       <ion-button class="bottom-btn" style="height: fit-content;">
         <b class="silabas si">Sí</b>
         <b class="silabas la">la</b>
         <b class="silabas bas">bas</b>
       </ion-button>
-    </ion-row>
-    <ion-row size="12">
+    </ion-row> -->
+    <!-- <ion-row size="12">
       <ion-button class="bottom-btn" style="height: fit-content;">
         <b class="quiz q">Q</b>
         <b class="quiz u">U</b>
         <b class="quiz i">I</b>
         <b class="quiz z">Z</b>
       </ion-button>
-    </ion-row>
+    </ion-row> -->
   </ion-grid>
 </ion-content>

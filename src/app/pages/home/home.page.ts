@@ -26,7 +26,7 @@ export class HomePage implements OnInit {
   }
 
   getLetras() {
-    this.alfabetoService.getLetras().subscribe(data => {
+    this.alfabetoService.getVogais().subscribe(data => {
       this.letras = data.alfabeto_brasileiro;
       console.log(this.letras)
     });
@@ -40,7 +40,7 @@ export class HomePage implements OnInit {
   }
 
   openDetails(data: any) {
-    this.router.navigate([`/tabs/home/details`, { data: data }])
+    this.router.navigate([`/tabs/home/details`, { data: JSON.stringify(data) }])
   }
 
 }
