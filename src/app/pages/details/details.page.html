@@ -30,13 +30,18 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <img class="details-img" [src]="imagemDetalheLetra" alt="Letra A">
+      <img class="details-img" [src]="imagemDetalheLetra" alt="Letra {{letra}}">
     </ion-row>
-    <ion-row size="12">
-      <ion-button class="sound-btn" (click)="playSound()">
+    <ion-row size="12" id="phoneme-sound-btn">
+      <ion-button class="sound-btn" (click)="setAndPlaySound(data.som_nome_letra)">
       </ion-button>
     </ion-row>
-    <ion-row size="12">
+    <ion-row size="12" id="name-sound-btn">
+      <ion-button *ngFor="let f of data.fonemas" class="sound-btn" (click)="setAndPlaySound(f['som_fonema'])">
+        {{f['fonema']}}
+      </ion-button>
+    </ion-row>
+    <!--ion-row size="12">
       <ion-button class="bottom-btn" style="height: fit-content;">
         <b class="silabas si">Sí</b>
         <b class="silabas la">la</b>
@@ -50,6 +55,6 @@
         <b class="quiz i">I</b>
         <b class="quiz z">Z</b>
       </ion-button>
-    </ion-row>
+    </ion-row-->
   </ion-grid>
 </ion-content>

@@ -40,7 +40,7 @@ export class HomePage implements OnInit {
   }
 
   openDetails(data: any) {
-    this.router.navigate([`/tabs/home/details`, { data: data }])
+    this.router.navigate([`/tabs/home/details`, { data: JSON.stringify(data) }])
   }
 
 }
