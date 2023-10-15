@@ -2,7 +2,7 @@
   "alfabeto_brasileiro": [
     {
       "nome_letra": "A",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-A.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-A.png",
       "som_nome_letra": "som_a.mp3",
       "fonemas": [
         {
@@ -25,7 +25,7 @@
     },
     {
       "nome_letra": "B",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-B.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-B.png",
       "som_nome_letra": "som_b.mp3",
       "fonemas": [
         {
@@ -36,7 +36,7 @@
     },
     {
       "nome_letra": "C",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-C.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-C.png",
       "som_nome_letra": "som_c.mp3",
       "fonemas": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "nome_letra": "D",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-D.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-D.png",
       "som_nome_letra": "som_d.mp3",
       "fonemas": [
         {
@@ -62,7 +62,7 @@
     },
     {
       "nome_letra": "E",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-E.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-E.png",
       "som_nome_letra": "som_e.mp3",
       "fonemas": [
         {
@@ -77,7 +77,7 @@
     },
     {
       "nome_letra": "F",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-F.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-F.png",
       "som_nome_letra": "som_f.mp3",
       "fonemas": [
         {
@@ -88,7 +88,7 @@
     },
     {
       "nome_letra": "G",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-G.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-G.png",
       "som_nome_letra": "som_g.mp3",
       "fonemas": [
         {
@@ -99,13 +99,13 @@
     },
     {
       "nome_letra": "H",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-H.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-H.png",
       "som_nome_letra": "som_h.mp3",
       "fonemas": []
     },
     {
       "nome_letra": "I",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-I.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-I.png",
       "som_nome_letra": "som_i.mp3",
       "fonemas": [
         {
@@ -120,7 +120,7 @@
     },
     {
       "nome_letra": "J",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-J.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-J.png",
       "som_nome_letra": "som_j.mp3",
       "fonemas": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "nome_letra": "K",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-K.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-K.png",
       "som_nome_letra": "som_k.mp3",
       "fonemas": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "nome_letra": "L",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-L.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-L.png",
       "som_nome_letra": "som_l.mp3",
       "fonemas": [
         {
@@ -153,7 +153,7 @@
     },
     {
       "nome_letra": "M",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-M.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-M.png",
       "som_nome_letra": "som_m.mp3",
       "fonemas": [
         {
@@ -164,7 +164,7 @@
     },
     {
       "nome_letra": "N",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-N.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-N.png",
       "som_nome_letra": "som_n.mp3",
       "fonemas": [
         {
@@ -175,7 +175,7 @@
     },
     {
       "nome_letra": "O",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-O.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-O.png",
       "som_nome_letra": "som_o.mp3",
       "fonemas": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "nome_letra": "P",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-P.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-P.png",
       "som_nome_letra": "som_p.mp3",
       "fonemas": [
         {
@@ -209,7 +209,7 @@
     },
     {
       "nome_letra": "Q",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-Q.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Q.png",
       "som_nome_letra": "som_q.mp3",
       "fonemas": [
         {
@@ -224,7 +224,7 @@
     },
     {
       "nome_letra": "R",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-R.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-R.png",
       "som_nome_letra": "som_r.mp3",
       "fonemas": [
         {
@@ -235,7 +235,7 @@
     },
     {
       "nome_letra": "S",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-S.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-S.png",
       "som_nome_letra": "som_s.mp3",
       "fonemas": [
         {
@@ -246,7 +246,7 @@
     },
     {
       "nome_letra": "T",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-T.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-T.png",
       "som_nome_letra": "som_t.mp3",
       "fonemas": [
         {
@@ -257,7 +257,7 @@
     },
     {
       "nome_letra": "U",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-U.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-U.png",
       "som_nome_letra": "som_u.mp3",
       "fonemas": [
         {
@@ -272,7 +272,7 @@
     },
     {
       "nome_letra": "V",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-V.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-V.png",
       "som_nome_letra": "som_v.mp3",
       "fonemas": [
         {
@@ -283,7 +283,7 @@
     },
     {
       "nome_letra": "W",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-W.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-W.png",
       "som_nome_letra": "som_w.mp3",
       "fonemas": [
         {
@@ -294,7 +294,7 @@
     },
     {
       "nome_letra": "X",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-X.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-X.png",
       "som_nome_letra": "som_x.mp3",
       "fonemas": [
         {
@@ -305,7 +305,7 @@
     },
     {
       "nome_letra": "Y",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-Y.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Y.png",
       "som_nome_letra": "som_y.mp3",
       "fonemas": [
         {
@@ -316,7 +316,7 @@
     },
     {
       "nome_letra": "Z",
-      "imagem_letra": "./images/letras-detalhes/Detalhes-Z.png",
+      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Z.png",
       "som_nome_letra": "som_z.mp3",
       "fonemas": [
         {
