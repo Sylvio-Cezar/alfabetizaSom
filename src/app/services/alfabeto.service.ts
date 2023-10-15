@@ -9,7 +9,7 @@ export class AlfabetoService {
   constructor(private http: HttpClient) {}
 
   getLetras(): Observable<any> {
-    return this.http.get('./assets/json/letras.json');
+    return this.http.get('./assets/json/vogais.json');
   }
 
   getDigrafos(): Observable<any> {
