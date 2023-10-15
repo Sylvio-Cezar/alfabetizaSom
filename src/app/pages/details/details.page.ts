@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Letra } from 'src/app/models/letra.model';
 
 @Component({
   selector: 'app-details',
@@ -9,21 +10,22 @@ import { ActivatedRoute } from '@angular/router';
 
 export class DetailsPage implements OnInit {
 
-
   public letra: string = "";
-  public data: Letra = new Letra();
+  public data: Letra = {} as Letra;
   public isPhoneme: boolean = true;
   public imagemDetalheLetra: string = "";
-  public snd = new Audio("../../assets/sounds/sfx-pop.mp3");
+  public snd = new Audio();
   static isPlaying: boolean = false;
 
-  constructor(private activatedRoute: ActivatedRoute) {
+  constructor(
+    private activatedRoute: ActivatedRoute
+  ) {
     this.activatedRoute.paramMap.subscribe(params => {
       let data = params.get('data');
-      console.log(data);
-      if (data)
+      if (data) {
         this.data = JSON.parse(data);
-    });
+      }
+     });
     this.snd.addEventListener('ended', DetailsPage.soundIsFinished);
   }
 
@@ -57,21 +59,6 @@ export class DetailsPage implements OnInit {
 
   changePhoneme(value: boolean) {
     this.isPhoneme = value;
-
-    let phonemeBtn = document.getElementById('phoneme-sound-btn');
-    if (phonemeBtn)
-      phonemeBtn.hidden = this.isPhoneme;
-
-    let nameBtn = document.getElementById('name-sound-btn');
-    if (nameBtn)
-      nameBtn.hidden = !this.isPhoneme;
   }
 
 }
-
-class Letra {
-  nome_letra = "";
-  imagem_letra = "";
-  som_nome_letra = "";
-  fonemas = [];
-};
