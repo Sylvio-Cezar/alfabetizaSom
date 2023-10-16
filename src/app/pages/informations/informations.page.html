@@ -12,6 +12,19 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="content-bg">
-  <ion-grid style="padding: 20px;">
+  <ion-grid style="padding: 20px; margin-top: 35%;">
+    <ion-row size="12" style="justify-content: center;">
+      <ion-label class="info-label">
+        Projeto: AlfabetizaSom
+      </ion-label>
+    </ion-row>
+    <ion-row size="12">
+      <img class="icon-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Ícone app">
+    </ion-row>
+    <ion-row size="12" style="justify-content: center;">
+      <ion-label class="info-label">
+        Versão: {{version}}
+      </ion-label>
+    </ion-row>
   </ion-grid>
 </ion-content>
