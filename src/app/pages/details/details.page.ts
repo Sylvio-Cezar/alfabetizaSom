@@ -10,10 +10,8 @@ import { Letra } from 'src/app/models/letra.model';
 
 export class DetailsPage implements OnInit {
 
-  public letra: string = "";
-  public data: Letra = {} as Letra;
+  public letra: Letra = {} as Letra;
   public isPhoneme: boolean = true;
-  public imagemDetalheLetra: string = "";
   public snd = new Audio();
   static isPlaying: boolean = false;
 
@@ -21,17 +19,15 @@ export class DetailsPage implements OnInit {
     private activatedRoute: ActivatedRoute
   ) {
     this.activatedRoute.paramMap.subscribe(params => {
-      let data = params.get('data');
-      if (data) {
-        this.data = JSON.parse(data);
+      let letra = params.get('data');
+      if (letra) {
+        this.letra = JSON.parse(letra);
       }
      });
     this.snd.addEventListener('ended', DetailsPage.soundIsFinished);
   }
 
   ngOnInit() {
-    this.letra = this.data.nome_letra;
-    this.imagemDetalheLetra = this.data.imagem_letra;
     this.changePhoneme(this.isPhoneme);
   }
 

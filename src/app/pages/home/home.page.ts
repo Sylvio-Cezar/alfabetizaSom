@@ -9,10 +9,8 @@ import { AlfabetoService } from 'src/app/services/alfabeto.service';
 })
 export class HomePage implements OnInit {
 
-  public letra: string = "A";
   public letras: any;
   public digrafos: any;
-  public imagemDetalheLetra: string = "";
 
   constructor(
     private alfabetoService: AlfabetoService,
@@ -22,20 +20,17 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.getLetras();
     this.getDigrafos();
-    this.imagemDetalheLetra = "../../assets/images/letras-detalhes/Detalhes-" + this.letra + ".png";
   }
 
   getLetras() {
     this.alfabetoService.getVogais().subscribe(data => {
       this.letras = data.alfabeto_brasileiro;
-      console.log(this.letras)
     });
   }
 
   getDigrafos() {
     this.alfabetoService.getDigrafos().subscribe(data => {
       this.digrafos = data.digrafos_brasileiros;
-      console.log(this.digrafos)
     });
   }
 
