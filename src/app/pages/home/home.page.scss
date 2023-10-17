@@ -3,3 +3,14 @@
   color: #000000;
   font-weight: bold;
 }
+
+.image-col {
+  justify-content: center;
+  display: flex;
+
+  .details-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+

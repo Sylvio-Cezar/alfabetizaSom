@@ -16,7 +16,7 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <ion-col size="4" *ngFor="let l of letras">
+      <ion-col size="4" *ngFor="let l of letras" class="image-col">
         <img class="details-img" src={{l.imagem_letra}} alt="Letra {{l.nome_letra}}" (click)="openDetails(l)">
       </ion-col>
     </ion-row>
