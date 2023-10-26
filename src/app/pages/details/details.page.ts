@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Letra } from 'src/app/models/letra.model';
 
 @Component({
@@ -16,7 +16,8 @@ export class DetailsPage implements OnInit {
   static isPlaying: boolean = false;
 
   constructor(
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) {
     this.activatedRoute.paramMap.subscribe(params => {
       let letra = params.get('data');
@@ -55,6 +56,14 @@ export class DetailsPage implements OnInit {
 
   changePhoneme(value: boolean) {
     this.isPhoneme = value;
+  }
+
+  openSyllables() {
+    this.router.navigate([`/tabs/home/syllables`, { data: JSON.stringify(this.letra) }])
+  }
+
+  openQuiz() {
+    this.router.navigate([`/tabs/home/quiz`, { data: JSON.stringify(this.letra) }])
   }
 
 }

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -8,6 +8,8 @@ import { DetailsPageRoutingModule } from './details-routing.module';
 
 import { DetailsPage } from './details.page';
 import { ExploreContainerComponentModule } from 'src/app/explore-container/explore-container.module';
+import { QuizPage } from '../quiz/quiz.page';
+import { SyllablesPage } from '../syllables/syllables.page';
 
 @NgModule({
   imports: [
@@ -17,6 +19,7 @@ import { ExploreContainerComponentModule } from 'src/app/explore-container/explo
     ExploreContainerComponentModule,
     DetailsPageRoutingModule
   ],
-  declarations: [DetailsPage]
+  declarations: [DetailsPage, QuizPage, SyllablesPage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class DetailsPageModule {}
