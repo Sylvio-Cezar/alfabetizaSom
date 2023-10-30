@@ -2,7 +2,7 @@
   "digrafos_brasileiros": [
      {
        "nome_digrafo": "NH",
-       "imagem_digrafo": "./images/digrafos-detalhes/Detalhes-NH.png",
+       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-NH.png",
        "som_nome_digrafo": "som_nh.mp3",
        "fonemas": [
          {
@@ -20,7 +20,7 @@
      },
      {
        "nome_digrafo": "RR",
-       "imagem_digrafo": "./images/digrafos-detalhes/Detalhes-RR.png",
+       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-RR.png",
        "som_nome_digrafo": "som_rr.mp3",
        "fonemas": [
          {
@@ -38,7 +38,7 @@
      },
      {
        "nome_digrafo": "SS",
-       "imagem_digrafo": "./images/digrafos-detalhes/Detalhes-SS.png",
+       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-SS.png",
        "som_nome_digrafo": "som_ss.mp3",
        "fonemas": [
          {
@@ -56,7 +56,7 @@
      },
      {
        "nome_digrafo": "CH",
-       "imagem_digrafo": "./images/digrafos-detalhes/Detalhes-CH.png",
+       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-CH.png",
        "som_nome_digrafo": "som_ch.mp3",
        "fonemas": [
          {
@@ -74,7 +74,7 @@
      },
      {
        "nome_digrafo": "LH",
-       "imagem_digrafo": "./images/digrafos-detalhes/Detalhes-LH.png",
+       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-LH.png",
        "som_nome_digrafo": "som_lh.mp3",
        "fonemas": [
          {

@@ -23,7 +23,7 @@ export class HomePage implements OnInit {
   }
 
   getLetras() {
-    this.alfabetoService.getVogais().subscribe(data => {
+    this.alfabetoService.getLetras().subscribe(data => {
       this.letras = data.alfabeto_brasileiro;
     });
   }
