@@ -12,28 +12,67 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="content-bg">
-  <ion-grid style="padding: 20px; margin-top: 35%;">
-    <swiper-container style="height: 350px;">
+  <ion-grid style="padding: 20px;">
+    <div class="row quiz-text-row">
+      <p class="quiz-text">Selecione apenas a imagem que represente algo iniciado com a letra _:</p>
+    </div>
+    <swiper-container
+      #swiper
+      [pagination]="true"
+      [speed]="500"
+      [allowTouchMove]="false"
+    >
       <swiper-slide class="quiz-swiper">
-        <ion-label>Slide 1</ion-label>
-        <ion-label>Slide 1</ion-label>
-        <ion-label>Slide 1</ion-label>
-        <ion-label>Slide 1</ion-label>
-        <ion-label>Slide 1</ion-label>
+        <div class="row quiz-row top-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-row bottom-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-btn-row">
+          <ion-button class="quiz-btn" (click)="goNext()">
+          </ion-button>
+        </div>
       </swiper-slide>
       <swiper-slide class="quiz-swiper">
-        <ion-label>Slide 2</ion-label>
-        <ion-label>Slide 2</ion-label>
-        <ion-label>Slide 2</ion-label>
-        <ion-label>Slide 2</ion-label>
-        <ion-label>Slide 2</ion-label>
+        <div class="row quiz-row top-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-row bottom-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-btn-row">
+          <ion-button class="quiz-btn" (click)="goNext()">
+          </ion-button>
+        </div>
       </swiper-slide>
       <swiper-slide class="quiz-swiper">
-        <ion-label>Slide 3</ion-label>
-        <ion-label>Slide 3</ion-label>
-        <ion-label>Slide 3</ion-label>
-        <ion-label>Slide 3</ion-label>
-        <ion-label>Slide 3</ion-label>
+        <div class="row quiz-row top-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-row bottom-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-btn-row">
+          <ion-button class="quiz-btn" (click)="goNext()">
+          </ion-button>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="quiz-swiper">
+        <div class="row quiz-row top-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-row bottom-row">
+          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+        </div>
+        <div class="row quiz-btn-row">
+          <ion-button class="quiz-btn" (click)="goNext()">
+          </ion-button>
+        </div>
       </swiper-slide>
     </swiper-container>
   </ion-grid>

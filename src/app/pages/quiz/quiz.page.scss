@@ -1,3 +1,11 @@
+.quiz-text-row {
+  .quiz-text {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}
+
 .quiz-swiper {
   display: grid;
   justify-content: center;
@@ -5,4 +13,38 @@
   ion-label {
     color: #000000;
   }
+
+  .quiz-row {
+    margin: auto;
+    width: 330px;
+    display: flex;
+
+    .quiz-img {
+      width: 150px;
+    }
+  }
+
+  .top-row {
+    justify-content: space-between;
+    margin-bottom: 10%;
+  }
+
+  .bottom-row {
+    justify-content: center;
+  }
 }
+
+.quiz-btn-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+
+  .quiz-btn {
+    --background: url(../../../assets/images/quiz/btn/btn-quiz.png) no-repeat center center / cover !important;
+    --box-shadow: none;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15%;
+  }
+}
+

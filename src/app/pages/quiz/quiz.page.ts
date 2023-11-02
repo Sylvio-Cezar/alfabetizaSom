@@ -22,6 +22,12 @@ export class QuizPage implements OnInit {
      });
   }
 
+  goNext() {
+    const swiperEl = document.querySelector('swiper-container');
+
+    swiperEl?.swiper.slideNext();
+  }
+
   ngOnInit() {
   }
 
