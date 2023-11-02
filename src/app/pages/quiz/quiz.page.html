@@ -14,7 +14,7 @@
 <ion-content [fullscreen]="true" class="content-bg">
   <ion-grid style="padding: 20px;">
     <div class="row quiz-text-row">
-      <p class="quiz-text">Selecione apenas a imagem que represente algo iniciado com a letra _:</p>
+      <p class="quiz-text">Selecione apenas a imagem que represente algo iniciado com a letra :</p>
     </div>
     <swiper-container
       #swiper
@@ -75,5 +75,24 @@
         </div>
       </swiper-slide>
     </swiper-container>
+
+    <div class="quiz-pontuacao-page">
+      <h5 class="quiz-pontuacao-text text-green">Parabéns!</h5>
+      <h5 class="quiz-pontuacao-text text-green">Você acertou 4/4!</h5>
+      <img class="quiz-pontuacao" src="../../../assets/images/quiz/icons/acerto.png" alt="Imagem quiz">
+    </div>
+
+    <div class="quiz-pontuacao-page">
+      <h5 class="quiz-pontuacao-text text-green">Foi por pouco!</h5>
+        <h5 class="quiz-pontuacao-text text-yellow">Você acertou 3/4!</h5>
+        <img class="quiz-img" src="../../../assets/images/quiz/icons/quase.png" alt="Imagem quiz">
+    </div>
+
+    <div class="quiz-pontuacao-page">
+      <h5 class="quiz-pontuacao-text text-green">Que pena!</h5>
+      <h5 class="quiz-pontuacao-text text-yellow">Você acertou 0/4!</h5>
+      <img class="quiz-img" src="../../../assets/images/quiz/icons/erro.png" alt="Imagem quiz">
+    </div>
+
   </ion-grid>
 </ion-content>

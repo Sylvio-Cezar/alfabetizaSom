@@ -48,3 +48,30 @@
   }
 }
 
+.quiz-pontuacao-page {
+    display: grid;
+    justify-content: center;
+}
+
+.quiz-pontuacao {
+  width: 300px;
+  height: 300px;
+  margin-top: 15%;
+}
+
+.quiz-pontuacao-text {
+  text-align: center;
+  font-size: 24px;
+}
+
+.text-green {
+  color: #35EB17;
+}
+
+.text-yellow {
+  color: #F6BE2C;
+}
+
+.text-red {
+  color: #FA1515;
+}
