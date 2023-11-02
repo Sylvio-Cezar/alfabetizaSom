@@ -10,7 +10,7 @@ import { Letra } from 'src/app/models/letra.model';
 
 export class DetailsPage implements OnInit {
 
-  public letra: Letra = {} as Letra;
+  public letra: any;
   public isPhoneme: boolean = true;
   public snd = new Audio();
   static isPlaying: boolean = false;
