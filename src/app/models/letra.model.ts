@@ -3,4 +3,5 @@ export interface Letra {
   imagem_letra: string
   som_nome_letra: string
   fonemas: Array<any>
+  imagens_quiz: Array<any>
 }

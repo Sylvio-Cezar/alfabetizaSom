@@ -13,84 +13,46 @@
 
 <ion-content [fullscreen]="true" class="content-bg">
   <ion-grid style="padding: 20px;">
-    <div class="row quiz-text-row">
-      <p class="quiz-text">Selecione apenas a imagem que represente algo iniciado com a letra :</p>
+    <div *ngIf="canShowSlide" class="row quiz-text-row">
+      <p class="quiz-text">Selecione apenas a imagem que represente algo iniciado com a letra: </p>
     </div>
     <swiper-container
       #swiper
       [pagination]="true"
       [speed]="500"
       [allowTouchMove]="false"
+      *ngIf="canShowSlide"
     >
-      <swiper-slide class="quiz-swiper">
+      <swiper-slide *ngFor="let _ of [1, 2, 3, 4]; let i = index" class="quiz-swiper">
         <div class="row quiz-row top-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img id="img1" (click)="markImage()" class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img id="img2" (click)="markImage()" class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
         </div>
         <div class="row quiz-row bottom-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img id="img3" (click)="markImage()" class="quiz-img" [src]="imagensQuiz[i]" alt="Imagem quiz">
         </div>
         <div class="row quiz-btn-row">
-          <ion-button class="quiz-btn" (click)="goNext()">
-          </ion-button>
-        </div>
-      </swiper-slide>
-      <swiper-slide class="quiz-swiper">
-        <div class="row quiz-row top-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-        </div>
-        <div class="row quiz-row bottom-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-        </div>
-        <div class="row quiz-btn-row">
-          <ion-button class="quiz-btn" (click)="goNext()">
-          </ion-button>
-        </div>
-      </swiper-slide>
-      <swiper-slide class="quiz-swiper">
-        <div class="row quiz-row top-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-        </div>
-        <div class="row quiz-row bottom-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-        </div>
-        <div class="row quiz-btn-row">
-          <ion-button class="quiz-btn" (click)="goNext()">
-          </ion-button>
-        </div>
-      </swiper-slide>
-      <swiper-slide class="quiz-swiper">
-        <div class="row quiz-row top-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-        </div>
-        <div class="row quiz-row bottom-row">
-          <img class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-        </div>
-        <div class="row quiz-btn-row">
-          <ion-button class="quiz-btn" (click)="goNext()">
+          <ion-button class="quiz-btn" (click)="goNext(i)">
           </ion-button>
         </div>
       </swiper-slide>
     </swiper-container>
 
-    <div class="quiz-pontuacao-page">
+    <div class="quiz-pontuacao-page" *ngIf="!canShowSlide && pontuation == 4">
       <h5 class="quiz-pontuacao-text text-green">Parabéns!</h5>
-      <h5 class="quiz-pontuacao-text text-green">Você acertou 4/4!</h5>
+      <h5 class="quiz-pontuacao-text text-green">Você acertou {{pontuation}}/4!</h5>
       <img class="quiz-pontuacao" src="../../../assets/images/quiz/icons/acerto.png" alt="Imagem quiz">
     </div>
 
-    <div class="quiz-pontuacao-page">
-      <h5 class="quiz-pontuacao-text text-green">Foi por pouco!</h5>
-        <h5 class="quiz-pontuacao-text text-yellow">Você acertou 3/4!</h5>
+    <div class="quiz-pontuacao-page" *ngIf="!canShowSlide && (pontuation > 1 && pontuation < 4)">
+      <h5 class="quiz-pontuacao-text text-yellow">Foi por pouco!</h5>
+        <h5 class="quiz-pontuacao-text text-yellow">Você acertou {{pontuation}}/4!</h5>
         <img class="quiz-img" src="../../../assets/images/quiz/icons/quase.png" alt="Imagem quiz">
     </div>
 
-    <div class="quiz-pontuacao-page">
-      <h5 class="quiz-pontuacao-text text-green">Que pena!</h5>
-      <h5 class="quiz-pontuacao-text text-yellow">Você acertou 0/4!</h5>
+    <div class="quiz-pontuacao-page" *ngIf="!canShowSlide && pontuation == 0">
+      <h5 class="quiz-pontuacao-text text-red">Que pena!</h5>
+      <h5 class="quiz-pontuacao-text text-red">Você acertou {{pontuation}}/4!</h5>
       <img class="quiz-img" src="../../../assets/images/quiz/icons/erro.png" alt="Imagem quiz">
     </div>
 

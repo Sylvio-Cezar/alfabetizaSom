@@ -10,6 +10,12 @@
            "fonema": "a",
            "som_fonema": "som_a_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Abacaxi.png",
+          "./assets/images/quiz/images/Quiz-Abelha.png",
+          "./assets/images/quiz/images/Quiz-Abóbora.png",
+          "./assets/images/quiz/images/Quiz-Anel.png"
        ]
      },
      {
