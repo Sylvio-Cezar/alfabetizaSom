@@ -25,14 +25,14 @@
     >
       <swiper-slide *ngFor="let _ of [1, 2, 3, 4]; let i = index" class="quiz-swiper">
         <div class="row quiz-row top-row">
-          <img id="img1" (click)="markImage()" class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-          <img id="img2" (click)="markImage()" class="quiz-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img [id]="'first-img' + i" (click)="markImage('first', i)" class="quiz-img first-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img [id]="'second-img' + i" (click)="markImage('second', i)" class="quiz-img second-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
         </div>
         <div class="row quiz-row bottom-row">
-          <img id="img3" (click)="markImage()" class="quiz-img" [src]="imagensQuiz[i]" alt="Imagem quiz">
+          <img [id]="'third-img' + i" (click)="markImage('third', i)" class="quiz-img third-img" [src]="imagensQuiz[i]" alt="Imagem quiz">
         </div>
         <div class="row quiz-btn-row">
-          <ion-button class="quiz-btn" (click)="goNext(i)">
+          <ion-button class="quiz-btn" (click)="goNext(i)" [disabled]="!canGoNext">
           </ion-button>
         </div>
       </swiper-slide>
@@ -44,7 +44,7 @@
       <img class="quiz-pontuacao" src="../../../assets/images/quiz/icons/acerto.png" alt="Imagem quiz">
     </div>
 
-    <div class="quiz-pontuacao-page" *ngIf="!canShowSlide && (pontuation > 1 && pontuation < 4)">
+    <div class="quiz-pontuacao-page" *ngIf="!canShowSlide && (pontuation >= 1 && pontuation < 4)">
       <h5 class="quiz-pontuacao-text text-yellow">Foi por pouco!</h5>
         <h5 class="quiz-pontuacao-text text-yellow">Você acertou {{pontuation}}/4!</h5>
         <img class="quiz-img" src="../../../assets/images/quiz/icons/quase.png" alt="Imagem quiz">
