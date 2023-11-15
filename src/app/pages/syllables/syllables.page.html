@@ -9,13 +9,23 @@
     </ion-title>
 
   </ion-toolbar>
-  <slot> 
-    <ion-col _ngcontent-mrh-c144="" size="4" class="image-col md hydrated" ng-reflect-size="4" style="flex: 0 0 calc(calc(4 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(4 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(4 / var(--ion-grid-columns, 12)) * 100%);"><img _ngcontent-mrh-c144="" class="details-img" src="./assets/images/letras-detalhes/Detalhes-A.png" alt="Letra A"></ion-col>
-
-  </slot>
 </ion-header>
 
 <ion-content [fullscreen]="true" class="content-bg">
   <ion-grid style="padding: 20px;">
+    <ion-row *ngFor="let _ of [1, 2, 3, 4, 5]; let i = index" size="12">
+      <ion-col style="display: flex; justify-content: center;" size="8">
+        <img class="details-img" [src]="letra.imagem_letra ? letra.imagem_letra : letra.imagem_digrafo" alt="letra.imagem_letra ? 'Letra' : 'Dígrafo'">
+        <p class="operation">+</p>
+        <img class="details-img" [src]="vogais[i]" alt="Vogal">
+      </ion-col>
+      <ion-col style="display: flex; justify-content: space-around;" size="4">
+        <p class="operation">=</p>
+        <p class="operation">AA</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+
+    </ion-row>
   </ion-grid>
 </ion-content>

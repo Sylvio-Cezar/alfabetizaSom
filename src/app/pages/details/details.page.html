@@ -30,7 +30,7 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <img class="details-img" [src]="letra.imagem_letra ? letra.imagem_letra : letra.imagem_digrafo" [alt]="letra.nome_letra ? 'Letra ' + letra.nome_letra : 'Dígrafo ' + letra.nome_digrafo">
+      <img class="details-img" [src]="letra.imagem_letra ? letra.imagem_letra : letra.imagem_digrafo" [alt]="letra.nome_letra ? 'Letra' : 'Dígrafo'">
     </ion-row>
     <ion-row *ngIf="!isPhoneme" size="12">
       <ion-col style="display: grid;">
