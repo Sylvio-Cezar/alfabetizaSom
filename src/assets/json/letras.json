@@ -34,6 +34,12 @@
            "fonema": "b",
            "som_fonema": "som_b_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Banana.png",
+          "./assets/images/quiz/images/Quiz-Bola.png",
+          "./assets/images/quiz/images/Quiz-Balo.png",
+          "./assets/images/quiz/images/Quiz-Borboleta.png"
        ]
      },
      {
@@ -52,6 +58,12 @@
            "fonema": "c",
            "som_fonema": "som_c_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Cachorro.png",
+          "./assets/images/quiz/images/Quiz-Carro.png",
+          "./assets/images/quiz/images/Quiz-Casa.png",
+          "./assets/images/quiz/images/Quiz-Coração.png"
        ]
      },
      {
@@ -70,6 +82,12 @@
            "fonema": "d",
            "som_fonema": "som_d_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Dedo.png",
+          "./assets/images/quiz/images/Quiz-Dente.png",
+          "./assets/images/quiz/images/Quiz-Dinheiro.png",
+          "./assets/images/quiz/images/Quiz-Dinossauro.png"
        ]
      },
      {
@@ -82,6 +100,12 @@
            "fonema": "e",
            "som_fonema": "som_e_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Elefante.png",
+          "./assets/images/quiz/images/Quiz-Escada.png",
+          "./assets/images/quiz/images/Quiz-Escova.png",
+          "./assets/images/quiz/images/Quiz-Estrela.png"
        ]
      },
      {
@@ -100,6 +124,12 @@
            "fonema": "f",
            "som_fonema": "som_f_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Fada.png",
+          "./assets/images/quiz/images/Quiz-Flor.png",
+          "./assets/images/quiz/images/Quiz-Foguete.png",
+          "./assets/images/quiz/images/Quiz-Frutas.png"
        ]
      },
      {
@@ -118,6 +148,12 @@
            "fonema": "g",
            "som_fonema": "som_g_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Gato.png",
+          "./assets/images/quiz/images/Quiz-Girafa.png",
+          "./assets/images/quiz/images/Quiz-Golfinho.png",
+          "./assets/images/quiz/images/Quiz-Guarda-Chuva.png"
        ]
      },
      {
@@ -136,6 +172,12 @@
            "fonema": "h",
            "som_fonema": "som_h_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Hamburguer.png",
+          "./assets/images/quiz/images/Quiz-Helicóptero.png",
+          "./assets/images/quiz/images/Quiz-Hipopótamo.png",
+          "./assets/images/quiz/images/Quiz-Hospital.png"
        ]
      },
      {
@@ -148,6 +190,12 @@
            "fonema": "i",
            "som_fonema": "som_i_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Iglu.png",
+          "./assets/images/quiz/images/Quiz-Igreja.png",
+          "./assets/images/quiz/images/Quiz-Ilha.png",
+          "./assets/images/quiz/images/Quiz-Imã.png"
        ]
      },
      {
@@ -166,6 +214,12 @@
            "fonema": "j",
            "som_fonema": "som_j_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Jacaré.png",
+          "./assets/images/quiz/images/Quiz-Janela.png",
+          "./assets/images/quiz/images/Quiz-Jarra.png",
+          "./assets/images/quiz/images/Quiz-Joaninha.png"
        ]
      },
      {
@@ -184,6 +238,12 @@
            "fonema": "k",
            "som_fonema": "som_k_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Ketchup.png",
+          "./assets/images/quiz/images/Quiz-Kiwi.png",
+          "./assets/images/quiz/images/Quiz-Kombi.png",
+          "./assets/images/quiz/images/Quiz-Kwai.png"
        ]
      },
      {
@@ -202,6 +262,12 @@
            "fonema": "l",
            "som_fonema": "som_l_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Lápis.png",
+          "./assets/images/quiz/images/Quiz-Laranja.png",
+          "./assets/images/quiz/images/Quiz-Livro.png",
+          "./assets/images/quiz/images/Quiz-Lua.png"
        ]
      },
      {
@@ -220,6 +286,12 @@
            "fonema": "m",
            "som_fonema": "som_m_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Macoco.png",
+          "./assets/images/quiz/images/Quiz-Martelo.png",
+          "./assets/images/quiz/images/Quiz-Mochila.png",
+          "./assets/images/quiz/images/Quiz-Morango.png"
        ]
      },
      {
@@ -238,6 +310,12 @@
            "fonema": "n",
            "som_fonema": "som_n_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Nariz.png",
+          "./assets/images/quiz/images/Quiz-Navio.png",
+          "./assets/images/quiz/images/Quiz-Ninho.png",
+          "./assets/images/quiz/images/Quiz-Nuvem.png"
        ]
      },
      {
@@ -250,6 +328,12 @@
            "fonema": "o",
            "som_fonema": "som_o_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Olho.png",
+          "./assets/images/quiz/images/Quiz-Osso.png",
+          "./assets/images/quiz/images/Quiz-Ovelha.png",
+          "./assets/images/quiz/images/Quiz-Ovo.png"
        ]
      },
      {
@@ -268,6 +352,12 @@
            "fonema": "p",
            "som_fonema": "som_p_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Pato.png",
+          "./assets/images/quiz/images/Quiz-Pinguim.png",
+          "./assets/images/quiz/images/Quiz-Pipoca.png",
+          "./assets/images/quiz/images/Quiz-Pirulito.png"
        ]
      },
      {
@@ -286,6 +376,12 @@
            "fonema": "q",
            "som_fonema": "som_q_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Quadrado.png",
+          "./assets/images/quiz/images/Quiz-Quadro.png",
+          "./assets/images/quiz/images/Quiz-Quatro.png",
+          "./assets/images/quiz/images/Quiz-Queijo.png"
        ]
      },
      {
@@ -304,6 +400,12 @@
            "fonema": "r",
            "som_fonema": "som_r_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Raquete.png",
+          "./assets/images/quiz/images/Quiz-Rato.png",
+          "./assets/images/quiz/images/Quiz-Relógio.png",
+          "./assets/images/quiz/images/Quiz-Rinoceronte.png"
        ]
      },
      {
@@ -322,6 +424,12 @@
            "fonema": "s",
            "som_fonema": "som_s_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Sapo.png",
+          "./assets/images/quiz/images/Quiz-Skate.png",
+          "./assets/images/quiz/images/Quiz-Sol.png",
+          "./assets/images/quiz/images/Quiz-Sorvete.png"
        ]
      },
      {
@@ -340,6 +448,12 @@
            "fonema": "t",
            "som_fonema": "som_t_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Tartaruga.png",
+          "./assets/images/quiz/images/Quiz-Televisão.png",
+          "./assets/images/quiz/images/Quiz-tesoura.png",
+          "./assets/images/quiz/images/Quiz-Tucano.png"
        ]
      },
      {
@@ -352,6 +466,12 @@
            "fonema": "u",
            "som_fonema": "som_u_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Unha.png",
+          "./assets/images/quiz/images/Quiz-Unicórnio.png",
+          "./assets/images/quiz/images/Quiz-Urso.png",
+          "./assets/images/quiz/images/Quiz-Uva.png"
        ]
      },
      {
@@ -370,6 +490,12 @@
            "fonema": "v",
            "som_fonema": "som_v_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Vaca.png",
+          "./assets/images/quiz/images/Quiz-Vagalume.png",
+          "./assets/images/quiz/images/Quiz-Vassoura.png",
+          "./assets/images/quiz/images/Quiz-Violão.png"
        ]
      },
      {
@@ -388,6 +514,12 @@
            "fonema": "w",
            "som_fonema": "som_w_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Waffle.png",
+          "./assets/images/quiz/images/Quiz-Whatsapp.png",
+          "./assets/images/quiz/images/Quiz-Wifi.png",
+          "./assets/images/quiz/images/Quiz-Wolverine.png"
        ]
      },
      {
@@ -406,6 +538,12 @@
            "fonema": "x",
            "som_fonema": "som_x_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Xadrez.png",
+          "./assets/images/quiz/images/Quiz-Xerife.png",
+          "./assets/images/quiz/images/Quiz-Xícara.png",
+          "./assets/images/quiz/images/Quiz-Xilofone.png"
        ]
      },
      {
@@ -424,6 +562,12 @@
            "fonema": "y",
            "som_fonema": "som_y_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Yakult.png",
+          "./assets/images/quiz/images/Quiz-Yin-yang.png",
+          "./assets/images/quiz/images/Quiz-Yoda.png",
+          "./assets/images/quiz/images/Quiz-Youtube.png"
        ]
      },
      {
@@ -442,6 +586,12 @@
            "fonema": "z",
            "som_fonema": "som_z_fonema.mp3"
          }
+       ],
+       "imagens_quiz": [
+          "./assets/images/quiz/images/Quiz-Zebra.png",
+          "./assets/images/quiz/images/Quiz-Zíper.png",
+          "./assets/images/quiz/images/Quiz-Zoológico.png",
+          "./assets/images/quiz/images/Quiz-Zumbi.png"
        ]
      }
   ]
