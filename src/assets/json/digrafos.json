@@ -16,7 +16,9 @@
          "NHI",
          "NHO",
          "NHU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
        "nome_digrafo": "RR",
@@ -34,7 +36,9 @@
          "RRI",
          "RRO",
          "RRU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
        "nome_digrafo": "SS",
@@ -52,7 +56,9 @@
          "SSI",
          "SSO",
          "SSU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
        "nome_digrafo": "CH",
@@ -70,7 +76,9 @@
          "CHI",
          "CHO",
          "CHU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
        "nome_digrafo": "LH",
@@ -88,7 +96,9 @@
          "LHI",
          "LHO",
          "LHU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      }
   ]
  }
