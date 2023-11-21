@@ -1,21 +1,23 @@
 {
   "alfabeto_brasileiro": [
      {
-       "nome_letra": "A",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-A.png",
-       "som_nome_letra": "som_a.mp3",
+       "nome": "A",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-A.png",
+       "som_nome": "som_a.mp3",
        "silabas": [],
        "fonemas": [
          {
            "fonema": "a",
            "som_fonema": "som_a_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "B",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-B.png",
-       "som_nome_letra": "som_b.mp3",
+       "nome": "B",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-B.png",
+       "som_nome": "som_b.mp3",
        "silabas": [
          "BA",
          "BE",
@@ -28,12 +30,14 @@
            "fonema": "b",
            "som_fonema": "som_b_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "C",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-C.png",
-       "som_nome_letra": "som_c.mp3",
+       "nome": "C",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-C.png",
+       "som_nome": "som_c.mp3",
        "silabas": [
          "CA",
          "CE",
@@ -46,12 +50,14 @@
            "fonema": "c",
            "som_fonema": "som_c_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "D",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-D.png",
-       "som_nome_letra": "som_d.mp3",
+       "nome": "D",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-D.png",
+       "som_nome": "som_d.mp3",
        "silabas": [
          "DA",
          "DE",
@@ -64,24 +70,28 @@
            "fonema": "d",
            "som_fonema": "som_d_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "E",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-E.png",
-       "som_nome_letra": "som_e.mp3",
+       "nome": "E",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-E.png",
+       "som_nome": "som_e.mp3",
        "silabas": [],
        "fonemas": [
          {
            "fonema": "e",
            "som_fonema": "som_e_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "F",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-F.png",
-       "som_nome_letra": "som_f.mp3",
+       "nome": "F",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-F.png",
+       "som_nome": "som_f.mp3",
        "silabas": [
          "FA",
          "FE",
@@ -94,12 +104,14 @@
            "fonema": "f",
            "som_fonema": "som_f_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "G",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-G.png",
-       "som_nome_letra": "som_g.mp3",
+       "nome": "G",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-G.png",
+       "som_nome": "som_g.mp3",
        "silabas": [
          "GA",
          "GE",
@@ -112,12 +124,14 @@
            "fonema": "g",
            "som_fonema": "som_g_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "H",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-H.png",
-       "som_nome_letra": "som_h.mp3",
+       "nome": "H",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-H.png",
+       "som_nome": "som_h.mp3",
        "silabas": [
          "HA",
          "HE",
@@ -130,24 +144,28 @@
            "fonema": "h",
            "som_fonema": "som_h_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "I",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-I.png",
-       "som_nome_letra": "som_i.mp3",
+       "nome": "I",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-I.png",
+       "som_nome": "som_i.mp3",
        "silabas": [],
        "fonemas": [
          {
            "fonema": "i",
            "som_fonema": "som_i_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "J",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-J.png",
-       "som_nome_letra": "som_j.mp3",
+       "nome": "J",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-J.png",
+       "som_nome": "som_j.mp3",
        "silabas": [
          "JA",
          "JE",
@@ -160,12 +178,14 @@
            "fonema": "j",
            "som_fonema": "som_j_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "K",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-K.png",
-       "som_nome_letra": "som_k.mp3",
+       "nome": "K",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-K.png",
+       "som_nome": "som_k.mp3",
        "silabas": [
          "KA",
          "KE",
@@ -178,12 +198,14 @@
            "fonema": "k",
            "som_fonema": "som_k_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "L",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-L.png",
-       "som_nome_letra": "som_l.mp3",
+       "nome": "L",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-L.png",
+       "som_nome": "som_l.mp3",
        "silabas": [
          "LA",
          "LE",
@@ -196,12 +218,14 @@
            "fonema": "l",
            "som_fonema": "som_l_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "M",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-M.png",
-       "som_nome_letra": "som_m.mp3",
+       "nome": "M",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-M.png",
+       "som_nome": "som_m.mp3",
        "silabas": [
          "MA",
          "ME",
@@ -214,12 +238,14 @@
            "fonema": "m",
            "som_fonema": "som_m_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "N",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-N.png",
-       "som_nome_letra": "som_n.mp3",
+       "nome": "N",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-N.png",
+       "som_nome": "som_n.mp3",
        "silabas": [
          "NA",
          "NE",
@@ -232,24 +258,28 @@
            "fonema": "n",
            "som_fonema": "som_n_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "O",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-O.png",
-       "som_nome_letra": "som_o.mp3",
+       "nome": "O",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-O.png",
+       "som_nome": "som_o.mp3",
        "silabas": [],
        "fonemas": [
          {
            "fonema": "o",
            "som_fonema": "som_o_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "P",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-P.png",
-       "som_nome_letra": "som_p.mp3",
+       "nome": "P",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-P.png",
+       "som_nome": "som_p.mp3",
        "silabas": [
          "PA",
          "PE",
@@ -262,12 +292,14 @@
            "fonema": "p",
            "som_fonema": "som_p_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "Q",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Q.png",
-       "som_nome_letra": "som_q.mp3",
+       "nome": "Q",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-Q.png",
+       "som_nome": "som_q.mp3",
        "silabas": [
          "QA",
          "QE",
@@ -280,12 +312,14 @@
            "fonema": "q",
            "som_fonema": "som_q_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "R",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-R.png",
-       "som_nome_letra": "som_r.mp3",
+       "nome": "R",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-R.png",
+       "som_nome": "som_r.mp3",
        "silabas": [
          "RA",
          "RE",
@@ -298,12 +332,14 @@
            "fonema": "r",
            "som_fonema": "som_r_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "S",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-S.png",
-       "som_nome_letra": "som_s.mp3",
+       "nome": "S",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-S.png",
+       "som_nome": "som_s.mp3",
        "silabas": [
          "SA",
          "SE",
@@ -316,12 +352,14 @@
            "fonema": "s",
            "som_fonema": "som_s_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "T",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-T.png",
-       "som_nome_letra": "som_t.mp3",
+       "nome": "T",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-T.png",
+       "som_nome": "som_t.mp3",
        "silabas": [
          "TA",
          "TE",
@@ -334,24 +372,28 @@
            "fonema": "t",
            "som_fonema": "som_t_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "U",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-U.png",
-       "som_nome_letra": "som_u.mp3",
+       "nome": "U",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-U.png",
+       "som_nome": "som_u.mp3",
        "silabas": [],
        "fonemas": [
          {
            "fonema": "u",
            "som_fonema": "som_u_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "V",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-V.png",
-       "som_nome_letra": "som_v.mp3",
+       "nome": "V",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-V.png",
+       "som_nome": "som_v.mp3",
        "silabas": [
          "VA",
          "VE",
@@ -364,12 +406,14 @@
            "fonema": "v",
            "som_fonema": "som_v_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "W",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-W.png",
-       "som_nome_letra": "som_w.mp3",
+       "nome": "W",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-W.png",
+       "som_nome": "som_w.mp3",
        "silabas": [
          "WA",
          "WE",
@@ -382,12 +426,14 @@
            "fonema": "w",
            "som_fonema": "som_w_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "X",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-X.png",
-       "som_nome_letra": "som_x.mp3",
+       "nome": "X",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-X.png",
+       "som_nome": "som_x.mp3",
        "silabas": [
          "XA",
          "XE",
@@ -400,12 +446,14 @@
            "fonema": "x",
            "som_fonema": "som_x_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "Y",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Y.png",
-       "som_nome_letra": "som_y.mp3",
+       "nome": "Y",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-Y.png",
+       "som_nome": "som_y.mp3",
        "silabas": [
          "YA",
          "YE",
@@ -418,12 +466,14 @@
            "fonema": "y",
            "som_fonema": "som_y_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "Z",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Z.png",
-       "som_nome_letra": "som_z.mp3",
+       "nome": "Z",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-Z.png",
+       "som_nome": "som_z.mp3",
        "silabas": [
          "ZA",
          "ZE",
@@ -436,7 +486,9 @@
            "fonema": "z",
            "som_fonema": "som_z_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      }
   ]
  }

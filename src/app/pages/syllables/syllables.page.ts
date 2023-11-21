@@ -39,7 +39,7 @@ export class SyllablesPage implements OnInit {
 
       vogaisArr[0].forEach((element: any) => {
         console.log(element)
-        this.vogais.push(element.imagem_letra);
+        this.vogais.push(element.imagem);
       });
       console.log(this.vogais);
     });

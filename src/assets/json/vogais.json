@@ -1,9 +1,9 @@
 {
   "alfabeto_brasileiro": [
     {
-      "nome_letra": "A",
-      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-A.png",
-      "som_nome_letra": "som_a.mp3",
+      "nome": "A",
+      "imagem": "./assets/images/letras-detalhes/Detalhes-A.png",
+      "som_nome": "som_a.mp3",
       "fonemas": [
         {
           "fonema": "a",
@@ -16,9 +16,9 @@
       ]
     },
     {
-      "nome_letra": "E",
-      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-E.png",
-      "som_nome_letra": "som_e.mp3",
+      "nome": "E",
+      "imagem": "./assets/images/letras-detalhes/Detalhes-E.png",
+      "som_nome": "som_e.mp3",
       "fonemas": [
         {
           "fonema": "e",
@@ -31,9 +31,9 @@
       ]
     },
     {
-      "nome_letra": "I",
-      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-I.png",
-      "som_nome_letra": "som_i.mp3",
+      "nome": "I",
+      "imagem": "./assets/images/letras-detalhes/Detalhes-I.png",
+      "som_nome": "som_i.mp3",
       "fonemas": [
         {
           "fonema": "i",
@@ -42,9 +42,9 @@
       ]
     },
     {
-      "nome_letra": "O",
-      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-O.png",
-      "som_nome_letra": "som_o.mp3",
+      "nome": "O",
+      "imagem": "./assets/images/letras-detalhes/Detalhes-O.png",
+      "som_nome": "som_o.mp3",
       "fonemas": [
         {
           "fonema": "o",
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "nome_letra": "U",
-      "imagem_letra": "./assets/images/letras-detalhes/Detalhes-U.png",
-      "som_nome_letra": "som_u.mp3",
+      "nome": "U",
+      "imagem": "./assets/images/letras-detalhes/Detalhes-U.png",
+      "som_nome": "som_u.mp3",
       "fonemas": [
         {
           "fonema": "u",

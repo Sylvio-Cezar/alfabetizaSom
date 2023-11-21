@@ -15,7 +15,7 @@
   <ion-grid style="padding: 20px;">
     <ion-row *ngFor="let _ of [1, 2, 3, 4, 5]; let i = index" size="12">
       <ion-col style="display: flex; justify-content: center;" size="8">
-        <img class="details-img" [src]="letra.imagem_letra ? letra.imagem_letra : letra.imagem_digrafo" alt="letra.imagem_letra ? 'Letra' : 'Dígrafo'">
+        <img class="details-img" [src]="letra.imagem" alt="Letra/Dígrafo">        
         <p class="operation">+</p>
         <img class="details-img" [src]="vogais[i]" alt="Vogal">
       </ion-col>

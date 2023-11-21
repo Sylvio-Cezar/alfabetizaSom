@@ -1,9 +1,9 @@
 {
   "digrafos_brasileiros": [
      {
-       "nome_digrafo": "NH",
-       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-NH.png",
-       "som_nome_digrafo": "som_nh.mp3",
+       "nome": "NH",
+       "imagem": "./assets/images/digrafos-detalhes/Detalhes-NH.png",
+       "som_nome": "som_nh.mp3",
        "fonemas": [
          {
            "fonema": "nh",
@@ -16,12 +16,14 @@
          "NHI",
          "NHO",
          "NHU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
-       "nome_digrafo": "RR",
-       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-RR.png",
-       "som_nome_digrafo": "som_rr.mp3",
+       "nome": "RR",
+       "imagem": "./assets/images/digrafos-detalhes/Detalhes-RR.png",
+       "som_nome": "som_rr.mp3",
        "fonemas": [
          {
            "fonema": "rr",
@@ -34,12 +36,14 @@
          "RRI",
          "RRO",
          "RRU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
-       "nome_digrafo": "SS",
-       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-SS.png",
-       "som_nome_digrafo": "som_ss.mp3",
+       "nome": "SS",
+       "imagem": "./assets/images/digrafos-detalhes/Detalhes-SS.png",
+       "som_nome": "som_ss.mp3",
        "fonemas": [
          {
            "fonema": "ss",
@@ -52,12 +56,14 @@
          "SSI",
          "SSO",
          "SSU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
-       "nome_digrafo": "CH",
-       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-CH.png",
-       "som_nome_digrafo": "som_ch.mp3",
+       "nome": "CH",
+       "imagem": "./assets/images/digrafos-detalhes/Detalhes-CH.png",
+       "som_nome": "som_ch.mp3",
        "fonemas": [
          {
            "fonema": "ch",
@@ -70,12 +76,14 @@
          "CHI",
          "CHO",
          "CHU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      },
      {
-       "nome_digrafo": "LH",
-       "imagem_digrafo": "./assets/images/digrafos-detalhes/Detalhes-LH.png",
-       "som_nome_digrafo": "som_lh.mp3",
+       "nome": "LH",
+       "imagem": "./assets/images/digrafos-detalhes/Detalhes-LH.png",
+       "som_nome": "som_lh.mp3",
        "fonemas": [
          {
            "fonema": "lh",
@@ -88,7 +96,9 @@
          "LHI",
          "LHO",
          "LHU"
-       ]
+       ],
+       "possui_quiz": false,
+       "possui_silabas": true
      }
   ]
  }
