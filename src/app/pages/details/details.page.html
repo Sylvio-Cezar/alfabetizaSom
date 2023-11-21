@@ -5,7 +5,7 @@
     </ion-buttons>
 
     <ion-title class="details-title">
-      <b>{{letra.nome_letra ? 'Letra ' + letra.nome_letra : 'Dígrafo ' + letra.nome_digrafo}}</b>
+      <b>{{letra.nome ? 'Letra ' + letra.nome : 'Dígrafo ' + letra.nome}}</b>
     </ion-title>
 
   </ion-toolbar>
@@ -30,14 +30,14 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <img class="details-img" [src]="letra.imagem_letra ? letra.imagem_letra : letra.imagem_digrafo" [alt]="letra.nome_letra ? 'Letra ' + letra.nome_letra : 'Dígrafo ' + letra.nome_digrafo">
+      <img class="details-img" [src]="letra.imagem ? letra.imagem : letra.imagem" [alt]="letra.nome ? 'Letra ' + letra.nome : 'Dígrafo ' + letra.nome">
     </ion-row>
     <ion-row *ngIf="!isPhoneme" size="12">
       <ion-col style="display: grid;">
         <ion-label class="btn-fonema">
-          {{letra.nome_letra ? letra.nome_letra : letra.nome_digrafo}}
+          {{letra.nome ? letra.nome : letra.nome}}
         </ion-label>
-        <ion-button class="sound-btn" (click)="setAndPlaySound(letra.som_nome_letra ? letra.som_nome_letra : letra.som_nome_digrafo)"></ion-button>
+        <ion-button class="sound-btn" (click)="setAndPlaySound(letra.som_nome ? letra.som_nome : letra.som_nome)"></ion-button>
       </ion-col>
     </ion-row>
     <ion-row *ngIf="isPhoneme" size="12">
