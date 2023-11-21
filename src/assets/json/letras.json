@@ -10,7 +10,9 @@
            "fonema": "a",
            "som_fonema": "som_a_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
        "nome_letra": "B",
@@ -28,7 +30,9 @@
            "fonema": "b",
            "som_fonema": "som_b_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "C",
@@ -46,7 +50,9 @@
            "fonema": "c",
            "som_fonema": "som_c_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "D",
@@ -64,7 +70,9 @@
            "fonema": "d",
            "som_fonema": "som_d_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "E",
@@ -76,7 +84,9 @@
            "fonema": "e",
            "som_fonema": "som_e_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
        "nome_letra": "F",
@@ -94,7 +104,9 @@
            "fonema": "f",
            "som_fonema": "som_f_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "G",
@@ -112,7 +124,9 @@
            "fonema": "g",
            "som_fonema": "som_g_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "H",
@@ -130,7 +144,9 @@
            "fonema": "h",
            "som_fonema": "som_h_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "I",
@@ -142,7 +158,9 @@
            "fonema": "i",
            "som_fonema": "som_i_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
        "nome_letra": "J",
@@ -160,7 +178,9 @@
            "fonema": "j",
            "som_fonema": "som_j_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "K",
@@ -178,7 +198,9 @@
            "fonema": "k",
            "som_fonema": "som_k_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "L",
@@ -196,7 +218,9 @@
            "fonema": "l",
            "som_fonema": "som_l_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "M",
@@ -214,7 +238,9 @@
            "fonema": "m",
            "som_fonema": "som_m_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "N",
@@ -232,7 +258,9 @@
            "fonema": "n",
            "som_fonema": "som_n_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "O",
@@ -244,7 +272,9 @@
            "fonema": "o",
            "som_fonema": "som_o_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
        "nome_letra": "P",
@@ -262,7 +292,9 @@
            "fonema": "p",
            "som_fonema": "som_p_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "Q",
@@ -280,7 +312,9 @@
            "fonema": "q",
            "som_fonema": "som_q_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "R",
@@ -298,7 +332,9 @@
            "fonema": "r",
            "som_fonema": "som_r_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "S",
@@ -316,7 +352,9 @@
            "fonema": "s",
            "som_fonema": "som_s_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "T",
@@ -334,7 +372,9 @@
            "fonema": "t",
            "som_fonema": "som_t_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "U",
@@ -346,7 +386,9 @@
            "fonema": "u",
            "som_fonema": "som_u_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
        "nome_letra": "V",
@@ -364,7 +406,9 @@
            "fonema": "v",
            "som_fonema": "som_v_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "W",
@@ -382,7 +426,9 @@
            "fonema": "w",
            "som_fonema": "som_w_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "X",
@@ -400,7 +446,9 @@
            "fonema": "x",
            "som_fonema": "som_x_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "Y",
@@ -418,7 +466,9 @@
            "fonema": "y",
            "som_fonema": "som_y_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
        "nome_letra": "Z",
@@ -436,7 +486,9 @@
            "fonema": "z",
            "som_fonema": "som_z_fonema.mp3"
          }
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      }
   ]
  }
