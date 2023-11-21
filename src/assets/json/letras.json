@@ -1,9 +1,9 @@
 {
   "alfabeto_brasileiro": [
      {
-       "nome_letra": "A",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-A.png",
-       "som_nome_letra": "som_a.mp3",
+       "nome": "A",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-A.png",
+       "som_nome": "som_a.mp3",
        "silabas": [],
        "fonemas": [
          {
@@ -16,12 +16,14 @@
           "./assets/images/quiz/images/Quiz-Abelha.png",
           "./assets/images/quiz/images/Quiz-Abóbora.png",
           "./assets/images/quiz/images/Quiz-Anel.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "B",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-B.png",
-       "som_nome_letra": "som_b.mp3",
+       "nome": "B",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-B.png",
+       "som_nome": "som_b.mp3",
        "silabas": [
          "BA",
          "BE",
@@ -38,14 +40,16 @@
        "imagens_quiz": [
           "./assets/images/quiz/images/Quiz-Banana.png",
           "./assets/images/quiz/images/Quiz-Bola.png",
-          "./assets/images/quiz/images/Quiz-Balo.png",
+          "./assets/images/quiz/images/Quiz-Bolo.png",
           "./assets/images/quiz/images/Quiz-Borboleta.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "C",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-C.png",
-       "som_nome_letra": "som_c.mp3",
+       "nome": "C",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-C.png",
+       "som_nome": "som_c.mp3",
        "silabas": [
          "CA",
          "CE",
@@ -64,12 +68,14 @@
           "./assets/images/quiz/images/Quiz-Carro.png",
           "./assets/images/quiz/images/Quiz-Casa.png",
           "./assets/images/quiz/images/Quiz-Coração.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "D",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-D.png",
-       "som_nome_letra": "som_d.mp3",
+       "nome": "D",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-D.png",
+       "som_nome": "som_d.mp3",
        "silabas": [
          "DA",
          "DE",
@@ -84,16 +90,18 @@
          }
        ],
        "imagens_quiz": [
-          "./assets/images/quiz/images/Quiz-Dedo.png",
+          "./assets/images/quiz/images/Quiz-Dado.png",
           "./assets/images/quiz/images/Quiz-Dente.png",
           "./assets/images/quiz/images/Quiz-Dinheiro.png",
           "./assets/images/quiz/images/Quiz-Dinossauro.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "E",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-E.png",
-       "som_nome_letra": "som_e.mp3",
+       "nome": "E",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-E.png",
+       "som_nome": "som_e.mp3",
        "silabas": [],
        "fonemas": [
          {
@@ -106,12 +114,14 @@
           "./assets/images/quiz/images/Quiz-Escada.png",
           "./assets/images/quiz/images/Quiz-Escova.png",
           "./assets/images/quiz/images/Quiz-Estrela.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "F",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-F.png",
-       "som_nome_letra": "som_f.mp3",
+       "nome": "F",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-F.png",
+       "som_nome": "som_f.mp3",
        "silabas": [
          "FA",
          "FE",
@@ -130,12 +140,14 @@
           "./assets/images/quiz/images/Quiz-Flor.png",
           "./assets/images/quiz/images/Quiz-Foguete.png",
           "./assets/images/quiz/images/Quiz-Frutas.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "G",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-G.png",
-       "som_nome_letra": "som_g.mp3",
+       "nome": "G",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-G.png",
+       "som_nome": "som_g.mp3",
        "silabas": [
          "GA",
          "GE",
@@ -154,12 +166,14 @@
           "./assets/images/quiz/images/Quiz-Girafa.png",
           "./assets/images/quiz/images/Quiz-Golfinho.png",
           "./assets/images/quiz/images/Quiz-Guarda-Chuva.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "H",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-H.png",
-       "som_nome_letra": "som_h.mp3",
+       "nome": "H",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-H.png",
+       "som_nome": "som_h.mp3",
        "silabas": [
          "HA",
          "HE",
@@ -178,12 +192,14 @@
           "./assets/images/quiz/images/Quiz-Helicóptero.png",
           "./assets/images/quiz/images/Quiz-Hipopótamo.png",
           "./assets/images/quiz/images/Quiz-Hospital.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "I",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-I.png",
-       "som_nome_letra": "som_i.mp3",
+       "nome": "I",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-I.png",
+       "som_nome": "som_i.mp3",
        "silabas": [],
        "fonemas": [
          {
@@ -196,12 +212,14 @@
           "./assets/images/quiz/images/Quiz-Igreja.png",
           "./assets/images/quiz/images/Quiz-Ilha.png",
           "./assets/images/quiz/images/Quiz-Imã.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "J",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-J.png",
-       "som_nome_letra": "som_j.mp3",
+       "nome": "J",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-J.png",
+       "som_nome": "som_j.mp3",
        "silabas": [
          "JA",
          "JE",
@@ -220,12 +238,14 @@
           "./assets/images/quiz/images/Quiz-Janela.png",
           "./assets/images/quiz/images/Quiz-Jarra.png",
           "./assets/images/quiz/images/Quiz-Joaninha.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "K",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-K.png",
-       "som_nome_letra": "som_k.mp3",
+       "nome": "K",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-K.png",
+       "som_nome": "som_k.mp3",
        "silabas": [
          "KA",
          "KE",
@@ -244,12 +264,14 @@
           "./assets/images/quiz/images/Quiz-Kiwi.png",
           "./assets/images/quiz/images/Quiz-Kombi.png",
           "./assets/images/quiz/images/Quiz-Kwai.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "L",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-L.png",
-       "som_nome_letra": "som_l.mp3",
+       "nome": "L",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-L.png",
+       "som_nome": "som_l.mp3",
        "silabas": [
          "LA",
          "LE",
@@ -268,12 +290,14 @@
           "./assets/images/quiz/images/Quiz-Laranja.png",
           "./assets/images/quiz/images/Quiz-Livro.png",
           "./assets/images/quiz/images/Quiz-Lua.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "M",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-M.png",
-       "som_nome_letra": "som_m.mp3",
+       "nome": "M",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-M.png",
+       "som_nome": "som_m.mp3",
        "silabas": [
          "MA",
          "ME",
@@ -288,16 +312,18 @@
          }
        ],
        "imagens_quiz": [
-          "./assets/images/quiz/images/Quiz-Macoco.png",
+          "./assets/images/quiz/images/Quiz-Macaco.png",
           "./assets/images/quiz/images/Quiz-Martelo.png",
           "./assets/images/quiz/images/Quiz-Mochila.png",
           "./assets/images/quiz/images/Quiz-Morango.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "N",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-N.png",
-       "som_nome_letra": "som_n.mp3",
+       "nome": "N",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-N.png",
+       "som_nome": "som_n.mp3",
        "silabas": [
          "NA",
          "NE",
@@ -316,12 +342,14 @@
           "./assets/images/quiz/images/Quiz-Navio.png",
           "./assets/images/quiz/images/Quiz-Ninho.png",
           "./assets/images/quiz/images/Quiz-Nuvem.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "O",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-O.png",
-       "som_nome_letra": "som_o.mp3",
+       "nome": "O",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-O.png",
+       "som_nome": "som_o.mp3",
        "silabas": [],
        "fonemas": [
          {
@@ -334,12 +362,14 @@
           "./assets/images/quiz/images/Quiz-Osso.png",
           "./assets/images/quiz/images/Quiz-Ovelha.png",
           "./assets/images/quiz/images/Quiz-Ovo.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "P",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-P.png",
-       "som_nome_letra": "som_p.mp3",
+       "nome": "P",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-P.png",
+       "som_nome": "som_p.mp3",
        "silabas": [
          "PA",
          "PE",
@@ -358,12 +388,14 @@
           "./assets/images/quiz/images/Quiz-Pinguim.png",
           "./assets/images/quiz/images/Quiz-Pipoca.png",
           "./assets/images/quiz/images/Quiz-Pirulito.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "Q",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Q.png",
-       "som_nome_letra": "som_q.mp3",
+       "nome": "Q",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-Q.png",
+       "som_nome": "som_q.mp3",
        "silabas": [
          "QA",
          "QE",
@@ -382,12 +414,14 @@
           "./assets/images/quiz/images/Quiz-Quadro.png",
           "./assets/images/quiz/images/Quiz-Quatro.png",
           "./assets/images/quiz/images/Quiz-Queijo.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "R",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-R.png",
-       "som_nome_letra": "som_r.mp3",
+       "nome": "R",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-R.png",
+       "som_nome": "som_r.mp3",
        "silabas": [
          "RA",
          "RE",
@@ -406,12 +440,14 @@
           "./assets/images/quiz/images/Quiz-Rato.png",
           "./assets/images/quiz/images/Quiz-Relógio.png",
           "./assets/images/quiz/images/Quiz-Rinoceronte.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "S",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-S.png",
-       "som_nome_letra": "som_s.mp3",
+       "nome": "S",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-S.png",
+       "som_nome": "som_s.mp3",
        "silabas": [
          "SA",
          "SE",
@@ -430,12 +466,14 @@
           "./assets/images/quiz/images/Quiz-Skate.png",
           "./assets/images/quiz/images/Quiz-Sol.png",
           "./assets/images/quiz/images/Quiz-Sorvete.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "T",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-T.png",
-       "som_nome_letra": "som_t.mp3",
+       "nome": "T",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-T.png",
+       "som_nome": "som_t.mp3",
        "silabas": [
          "TA",
          "TE",
@@ -452,14 +490,16 @@
        "imagens_quiz": [
           "./assets/images/quiz/images/Quiz-Tartaruga.png",
           "./assets/images/quiz/images/Quiz-Televisão.png",
-          "./assets/images/quiz/images/Quiz-tesoura.png",
+          "./assets/images/quiz/images/Quiz-Tesoura.png",
           "./assets/images/quiz/images/Quiz-Tucano.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "U",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-U.png",
-       "som_nome_letra": "som_u.mp3",
+       "nome": "U",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-U.png",
+       "som_nome": "som_u.mp3",
        "silabas": [],
        "fonemas": [
          {
@@ -472,12 +512,14 @@
           "./assets/images/quiz/images/Quiz-Unicórnio.png",
           "./assets/images/quiz/images/Quiz-Urso.png",
           "./assets/images/quiz/images/Quiz-Uva.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": false
      },
      {
-       "nome_letra": "V",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-V.png",
-       "som_nome_letra": "som_v.mp3",
+       "nome": "V",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-V.png",
+       "som_nome": "som_v.mp3",
        "silabas": [
          "VA",
          "VE",
@@ -496,12 +538,14 @@
           "./assets/images/quiz/images/Quiz-Vagalume.png",
           "./assets/images/quiz/images/Quiz-Vassoura.png",
           "./assets/images/quiz/images/Quiz-Violão.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "W",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-W.png",
-       "som_nome_letra": "som_w.mp3",
+       "nome": "W",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-W.png",
+       "som_nome": "som_w.mp3",
        "silabas": [
          "WA",
          "WE",
@@ -520,12 +564,14 @@
           "./assets/images/quiz/images/Quiz-Whatsapp.png",
           "./assets/images/quiz/images/Quiz-Wifi.png",
           "./assets/images/quiz/images/Quiz-Wolverine.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "X",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-X.png",
-       "som_nome_letra": "som_x.mp3",
+       "nome": "X",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-X.png",
+       "som_nome": "som_x.mp3",
        "silabas": [
          "XA",
          "XE",
@@ -544,12 +590,14 @@
           "./assets/images/quiz/images/Quiz-Xerife.png",
           "./assets/images/quiz/images/Quiz-Xícara.png",
           "./assets/images/quiz/images/Quiz-Xilofone.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "Y",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Y.png",
-       "som_nome_letra": "som_y.mp3",
+       "nome": "Y",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-Y.png",
+       "som_nome": "som_y.mp3",
        "silabas": [
          "YA",
          "YE",
@@ -565,15 +613,17 @@
        ],
        "imagens_quiz": [
           "./assets/images/quiz/images/Quiz-Yakult.png",
-          "./assets/images/quiz/images/Quiz-Yin-yang.png",
+          "./assets/images/quiz/images/Quiz-Yin-Yang.png",
           "./assets/images/quiz/images/Quiz-Yoda.png",
           "./assets/images/quiz/images/Quiz-Youtube.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      },
      {
-       "nome_letra": "Z",
-       "imagem_letra": "./assets/images/letras-detalhes/Detalhes-Z.png",
-       "som_nome_letra": "som_z.mp3",
+       "nome": "Z",
+       "imagem": "./assets/images/letras-detalhes/Detalhes-Z.png",
+       "som_nome": "som_z.mp3",
        "silabas": [
          "ZA",
          "ZE",
@@ -592,7 +642,9 @@
           "./assets/images/quiz/images/Quiz-Zíper.png",
           "./assets/images/quiz/images/Quiz-Zoológico.png",
           "./assets/images/quiz/images/Quiz-Zumbi.png"
-       ]
+       ],
+       "possui_quiz": true,
+       "possui_silabas": true
      }
   ]
  }

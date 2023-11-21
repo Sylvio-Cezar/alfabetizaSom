@@ -1,7 +1,7 @@
 export interface Letra {
-  nome_letra: string
-  imagem_letra: string
-  som_nome_letra: string
+  nome: string
+  imagem: string
+  som_nome: string
   fonemas: Array<any>
   imagens_quiz: Array<any>
 }
