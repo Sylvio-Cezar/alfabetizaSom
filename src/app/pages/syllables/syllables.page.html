@@ -12,20 +12,42 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="content-bg">
-  <ion-grid style="padding: 20px;">
+  <ion-grid style="padding: 20px;" [ngClass]="!letra.possui_palavras ? 'margin-grid' : ''">
     <ion-row *ngFor="let _ of [1, 2, 3, 4, 5]; let i = index" size="12">
       <ion-col style="display: flex; justify-content: center;" size="8">
-        <img class="details-img" [src]="letra.imagem" alt="Letra/Dígrafo">        
-        <p class="operation">+</p>
+        <img class="details-img" [src]="letra.imagem" alt="Letra/Dígrafo">
+        <p class="operation"
+         [ngClass]="i == 1 ? 'operation-green' :
+            i == 2 ? 'operation-blue' :
+            i == 3 ? 'operation-purple' :
+            i == 4 ? 'operation-red' : 'operation-orange'">+</p>
         <img class="details-img" [src]="vogais[i]" alt="Vogal">
       </ion-col>
       <ion-col style="display: flex; justify-content: space-around;" size="4">
-        <p class="operation">=</p>
-        <p class="operation">AA</p>
+        <p class="operation"
+          [ngClass]="i == 1 ? 'operation-purple' :
+            i == 2 ? 'operation-yellow' :
+            i == 3 ? 'operation-red' :
+            i == 4 ? 'operation-blue' : 'operation-orange'">=</p>
+        <p class="operation"
+          [ngClass]="i == 1 ? 'operation-blue' :
+            i == 2 ? 'operation-purple' :
+            i == 3 ? 'operation-green' :
+            i == 4 ? 'operation-yellow' : 'operation-red'">{{letra.silabas[i]}}</p>
       </ion-col>
     </ion-row>
-    <ion-row>
-
+    <ion-row size="12" *ngIf="letra.possui_palavras">
+      <ion-label class="words-label">Palavras iniciadas com a letra {{letra.nome}}:</ion-label>
+    </ion-row>
+    <ion-row size="12" *ngIf="letra.possui_palavras">
+      <ion-col *ngFor="let _ of [1, 2, 3, 4]; let i = index" size="6">
+        <div class="word-bg"
+         [ngClass]="i == 1 ? 'bg-green' :
+            i == 2 ? 'bg-yellow' :
+            i == 3 ? 'bg-purple' : 'bg-blue'">
+            <p class="word">{{letra.palavras[i]}}</p>
+          </div>
+      </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
