@@ -18,6 +18,7 @@
          "NHU"
        ],
        "possui_quiz": false,
+       "possui_palavras": false,
        "possui_silabas": true
      },
      {
@@ -38,6 +39,7 @@
          "RRU"
        ],
        "possui_quiz": false,
+       "possui_palavras": false,
        "possui_silabas": true
      },
      {
@@ -58,6 +60,7 @@
          "SSU"
        ],
        "possui_quiz": false,
+       "possui_palavras": false,
        "possui_silabas": true
      },
      {
@@ -78,6 +81,7 @@
          "CHU"
        ],
        "possui_quiz": false,
+       "possui_palavras": false,
        "possui_silabas": true
      },
      {
@@ -98,6 +102,7 @@
          "LHU"
        ],
        "possui_quiz": false,
+       "possui_palavras": false,
        "possui_silabas": true
      }
   ]

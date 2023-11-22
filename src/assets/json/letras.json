@@ -12,6 +12,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": false,
        "possui_silabas": false
      },
      {
@@ -25,6 +26,12 @@
          "BO",
          "BU"
        ],
+       "palavras": [
+         "Banana",
+         "Bola",
+         "Bolo",
+         "Borboleta"
+       ],
        "fonemas": [
          {
            "fonema": "b",
@@ -32,6 +39,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -45,6 +53,12 @@
          "CO",
          "CU"
        ],
+       "palavras": [
+         "Cachorro",
+         "Carro",
+         "Casa",
+         "Coração"
+       ],
        "fonemas": [
          {
            "fonema": "c",
@@ -52,6 +66,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -65,6 +80,12 @@
          "DO",
          "DU"
        ],
+       "palavras": [
+         "Dado",
+         "Dente",
+         "Dinheiro",
+         "Dinossauro"
+       ],
        "fonemas": [
          {
            "fonema": "d",
@@ -72,6 +93,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -86,6 +108,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": false,
        "possui_silabas": false
      },
      {
@@ -99,6 +122,12 @@
          "FO",
          "FU"
        ],
+       "palavras": [
+         "Fada",
+         "Flor",
+         "Foguete",
+         "Frutas"
+       ],
        "fonemas": [
          {
            "fonema": "f",
@@ -106,6 +135,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -119,6 +149,12 @@
          "GO",
          "GU"
        ],
+       "palavras": [
+         "Gato",
+         "Girafa",
+         "Golfinho",
+         "Guarda chuva"
+       ],
        "fonemas": [
          {
            "fonema": "g",
@@ -126,6 +162,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -139,6 +176,12 @@
          "HO",
          "HU"
        ],
+       "palavras": [
+         "Hamburguer",
+         "Helicóptero",
+         "Hipopótamo",
+         "Hospital"
+       ],
        "fonemas": [
          {
            "fonema": "h",
@@ -146,6 +189,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -160,6 +204,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": false,
        "possui_silabas": false
      },
      {
@@ -173,6 +218,12 @@
          "JO",
          "JU"
        ],
+       "palavras": [
+         "Jacaré",
+         "Janela",
+         "Jarra",
+         "Joaninha"
+       ],
        "fonemas": [
          {
            "fonema": "j",
@@ -180,6 +231,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -193,6 +245,12 @@
          "KO",
          "KU"
        ],
+       "palavras": [
+         "Ketchup",
+         "Kiwi",
+         "Kombi",
+         "Kwai"
+       ],
        "fonemas": [
          {
            "fonema": "k",
@@ -200,6 +258,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -213,6 +272,12 @@
          "LO",
          "LU"
        ],
+       "palavras": [
+         "Laranja",
+         "Livro",
+         "Lua",
+         "Lápis"
+       ],
        "fonemas": [
          {
            "fonema": "l",
@@ -220,6 +285,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -233,6 +299,12 @@
          "MO",
          "MU"
        ],
+       "palavras": [
+         "Macaco",
+         "Martelo",
+         "Mochila",
+         "Morango"
+       ],
        "fonemas": [
          {
            "fonema": "m",
@@ -240,6 +312,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -253,6 +326,12 @@
          "NO",
          "NU"
        ],
+       "palavras": [
+         "Nariz",
+         "Navio",
+         "Ninho",
+         "Nuvem"
+       ],
        "fonemas": [
          {
            "fonema": "n",
@@ -260,6 +339,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -274,6 +354,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": false,
        "possui_silabas": false
      },
      {
@@ -287,6 +368,12 @@
          "PO",
          "PU"
        ],
+       "palavras": [
+         "Pato",
+         "Pinguim",
+         "Pipoca",
+         "Pirulito"
+       ],
        "fonemas": [
          {
            "fonema": "p",
@@ -294,6 +381,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -307,6 +395,12 @@
          "QO",
          "QU"
        ],
+       "palavras": [
+         "Quadrado",
+         "Quadro",
+         "Quatro",
+         "Queijo"
+       ],
        "fonemas": [
          {
            "fonema": "q",
@@ -314,6 +408,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -327,6 +422,12 @@
          "RO",
          "RU"
        ],
+       "palavras": [
+         "Raquete",
+         "Rato",
+         "Relógio",
+         "Rinoceronte"
+       ],
        "fonemas": [
          {
            "fonema": "r",
@@ -334,6 +435,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -347,6 +449,12 @@
          "SO",
          "SU"
        ],
+       "palavras": [
+         "Sapo",
+         "Skate",
+         "Sol",
+         "Sorvete"
+       ],
        "fonemas": [
          {
            "fonema": "s",
@@ -354,6 +462,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -367,6 +476,12 @@
          "TO",
          "TU"
        ],
+       "palavras": [
+         "Tartaruga",
+         "Televisão",
+         "Tesoura",
+         "Tucano"
+       ],
        "fonemas": [
          {
            "fonema": "t",
@@ -374,6 +489,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -388,6 +504,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": false,
        "possui_silabas": false
      },
      {
@@ -401,6 +518,12 @@
          "VO",
          "VU"
        ],
+       "palavras": [
+         "Vaca",
+         "Vagalume",
+         "Vassoura",
+         "Violão"
+       ],
        "fonemas": [
          {
            "fonema": "v",
@@ -408,6 +531,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -421,6 +545,12 @@
          "WO",
          "WU"
        ],
+       "palavras": [
+         "Waffle",
+         "Whatsapp",
+         "Wifi",
+         "Wolverine"
+       ],
        "fonemas": [
          {
            "fonema": "w",
@@ -428,6 +558,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -441,6 +572,12 @@
          "XO",
          "XU"
        ],
+       "palavras": [
+         "Xadrez",
+         "Xerife",
+         "Xilofone",
+         "Xícara"
+       ],
        "fonemas": [
          {
            "fonema": "x",
@@ -448,6 +585,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -461,6 +599,12 @@
          "YO",
          "YU"
        ],
+       "palavras": [
+         "Yakult",
+         "Yin yang",
+         "Yoda",
+         "Youtube"
+       ],
        "fonemas": [
          {
            "fonema": "y",
@@ -468,6 +612,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      },
      {
@@ -481,6 +626,12 @@
          "ZO",
          "ZU"
        ],
+       "palavras": [
+         "Zebra",
+         "Zoológico",
+         "Zumbi",
+         "Zíper"
+       ],
        "fonemas": [
          {
            "fonema": "z",
@@ -488,6 +639,7 @@
          }
        ],
        "possui_quiz": true,
+       "possui_palavras": true,
        "possui_silabas": true
      }
   ]

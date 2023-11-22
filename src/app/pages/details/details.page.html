@@ -30,7 +30,7 @@
       </ion-col>
     </ion-row>
     <ion-row size="12">
-      <img class="details-img" [src]="letra.imagem ? letra.imagem : letra.imagem" [alt]="letra.nome ? 'Letra ' + letra.nome : 'Dígrafo ' + letra.nome">
+      <img class="details-img" [src]="letra.imagem" alt="Letra/Dígrafo">
     </ion-row>
     <ion-row *ngIf="!isPhoneme" size="12">
       <ion-col style="display: grid;">
@@ -48,14 +48,14 @@
         <ion-button class="sound-btn" (click)="setAndPlaySound(f.som_fonema)"></ion-button>
       </ion-col>
     </ion-row>
-    <ion-row size="12">
+    <ion-row size="12" *ngIf="letra.possui_silabas">
       <ion-button class="bottom-btn" style="height: fit-content;" (click)="openSyllables()">
         <b class="silabas si">Sí</b>
         <b class="silabas la">la</b>
         <b class="silabas bas">bas</b>
       </ion-button>
     </ion-row>
-    <ion-row size="12">
+    <ion-row size="12" *ngIf="letra.possui_quiz" >
       <ion-button class="bottom-btn" style="height: fit-content;" (click)="openQuiz()">
         <b class="quiz q">Q</b>
         <b class="quiz u">U</b>
