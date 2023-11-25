@@ -13,8 +13,9 @@ export class QuizPage implements OnInit {
   public letra: Letra = {} as Letra;
   public imagens: Array<String> = [] as Array<String>;
   public imagensQuiz: Array<any> = [] as any;
-  public totalImages: Array<String> = [] as Array<String>
+  public perPageImages: Array<String> = [] as Array<String>
   public pontuation: number = 0;
+  public totalPontuation: number = 0;
   public canShowSlide: boolean = true;
   public canGoNext: boolean = false;
 
@@ -29,17 +30,10 @@ export class QuizPage implements OnInit {
         this.imagensQuiz = this.letra?.imagens_quiz;
       }
      });
-     this.getLetras();
-
-     this.totalImages.push(this.imagens[8])
-     console.log(this.imagens[8])
-     this.totalImages.push(this.imagens[69])
-     this.totalImages.push(this.imagensQuiz[0])
-
-     console.log(this.totalImages)
+     this.getImagens(0);
   }
 
-  getLetras() {
+  getImagens(index: number) {
     this.alfabetoService.getLetras().subscribe(data => {
       const letras = data.alfabeto_brasileiro;
       letras.forEach((elem: any) => {
@@ -47,17 +41,25 @@ export class QuizPage implements OnInit {
         indexImg.push(elem.imagens_quiz);
         indexImg[0].forEach((elem: any) => {
           this.imagens.push(elem);
-        }); 
+        });
       });
       this.imagens = this.imagens.filter(elem => !elem.startsWith(`./assets/images/quiz/images/Quiz-${this.letra.nome}`))
-      const shuffle = (array: String[]) => { 
-        for (let i = array.length - 1; i > 0; i--) { 
-          const j = Math.floor(Math.random() * (i + 1)); 
-          [array[i], array[j]] = [array[j], array[i]]; 
-        } 
-        return array; 
-      }; 
+      const shuffle = (array: String[]) => {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      };
       this.imagens = shuffle(this.imagens);
+
+      this.perPageImages = [];
+
+      this.perPageImages.push(this.imagens[index]);
+      this.perPageImages.push(this.imagens[index + 10]);
+      this.perPageImages.push(this.imagensQuiz[index]);
+
+      this.perPageImages = shuffle(this.perPageImages);
     });
   }
 
@@ -66,8 +68,9 @@ export class QuizPage implements OnInit {
 
     swiperEl?.swiper.slideNext();
 
-    const point = Math.floor(Math.random() * 2);
-    point == 1 ? this.pontuation++ : this.pontuation = this.pontuation;
+    this.getImagens(index + 1);
+
+    this.totalPontuation += this.pontuation;
 
     if (index == 3) {
       this.canShowSlide = false;
@@ -81,20 +84,50 @@ export class QuizPage implements OnInit {
     const img2 = document.getElementById("second-img" + index);
     const img3 = document.getElementById("third-img" + index);
 
+    console.log(img1?.getAttribute("src"))
+    console.log(img2?.getAttribute("src"))
+    console.log(img3?.getAttribute("src"))
+
     if (field == "first") {
       img1?.classList.toggle("border-green");
       img2?.classList.remove("border-green");
       img3?.classList.remove("border-green");
+
+      let imgUrl: any = "";
+      imgUrl = img1?.getAttribute("src");
+
+      if (imgUrl.startsWith(`./assets/images/quiz/images/Quiz-${this.letra.nome}`)) {
+        this.pontuation = 1;
+      } else {
+        this.pontuation = 0;
+      }
     } else if (field == "second") {
       img1?.classList.remove("border-green");
       img2?.classList.toggle("border-green");
       img3?.classList.remove("border-green");
+
+      let imgUrl: any = "";
+      imgUrl = img2?.getAttribute("src");
+
+      if (imgUrl.startsWith(`./assets/images/quiz/images/Quiz-${this.letra.nome}`)) {
+        this.pontuation = 1;
+      } else {
+        this.pontuation = 0;
+      }
     } else {
       img1?.classList.remove("border-green");
       img2?.classList.remove("border-green");
       img3?.classList.toggle("border-green");
-    }
 
+      let imgUrl: any = "";
+      imgUrl = img3?.getAttribute("src");
+
+      if (imgUrl.startsWith(`./assets/images/quiz/images/Quiz-${this.letra.nome}`)) {
+        this.pontuation = 1;
+      } else {
+        this.pontuation = 0;
+      }
+    }
     this.canGoNext = true;
   }
 

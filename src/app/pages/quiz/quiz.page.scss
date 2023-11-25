@@ -1,6 +1,7 @@
 .quiz-text-row {
   .quiz-text {
     color: #000000;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 15%;
   }
@@ -52,6 +53,10 @@
     display: grid;
     justify-content: center;
     margin-top: 15%;
+
+    .quiz-img {
+      margin-top: 20%;
+    }
 }
 
 .quiz-pontuacao {
@@ -62,7 +67,9 @@
 
 .quiz-pontuacao-text {
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
 }
 
 .text-green {
