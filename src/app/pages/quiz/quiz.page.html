@@ -14,7 +14,7 @@
 <ion-content [fullscreen]="true" class="content-bg">
   <ion-grid style="padding: 20px;">
     <div *ngIf="canShowSlide" class="row quiz-text-row">
-      <p class="quiz-text">Selecione apenas a imagem que represente algo iniciado com a letra: </p>
+      <p class="quiz-text">Selecione apenas a imagem que represente algo iniciado com a letra {{letra.nome}}: </p>
     </div>
     <swiper-container
       #swiper
@@ -25,8 +25,8 @@
     >
       <swiper-slide *ngFor="let _ of [1, 2, 3, 4]; let i = index" class="quiz-swiper">
         <div class="row quiz-row top-row">
-          <img [id]="'first-img' + i" (click)="markImage('first', i)" class="quiz-img first-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
-          <img [id]="'second-img' + i" (click)="markImage('second', i)" class="quiz-img second-img" src="../../../assets/icon/icon-alfabetizasom.jpeg" alt="Imagem quiz">
+          <img [id]="'first-img' + i" (click)="markImage('first', i)" class="quiz-img first-img" [src]="imagens[i]" alt="Imagem quiz">
+          <img [id]="'second-img' + i" (click)="markImage('second', i)" class="quiz-img second-img" [src]="imagens[i+10]" alt="Imagem quiz">
         </div>
         <div class="row quiz-row bottom-row">
           <img [id]="'third-img' + i" (click)="markImage('third', i)" class="quiz-img third-img" [src]="imagensQuiz[i]" alt="Imagem quiz">
