@@ -8,6 +8,11 @@
       <b>Sílabas</b>
     </ion-title>
 
+    <ion-buttons slot="end">
+      <ion-button id="volume-button" size="large" class="menu-buttons" (click)="toggleVolumeButton()">
+        <ion-icon id="volume-icon" slot="icon-only" [name]="volumeIcon"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Letra } from 'src/app/models/letra.model';
+import { BackgroundSound } from 'src/app/models/backgroundSound.component';
 
 @Component({
   selector: 'app-details',
@@ -14,6 +14,7 @@ export class DetailsPage implements OnInit {
   public isPhoneme: boolean = true;
   public snd = new Audio();
   static isPlaying: boolean = false;
+  public volumeIcon: string = BackgroundSound.icon;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -32,9 +33,14 @@ export class DetailsPage implements OnInit {
     this.changePhoneme(this.isPhoneme);
   }
 
+  toggleVolumeButton(){
+    BackgroundSound.toggleBackgroundSound();
+  }
+
   playSound() {
     if (!DetailsPage.isPlaying) {
       DetailsPage.isPlaying = true;
+      BackgroundSound.setSoundVolume(0.1);
       this.snd.play().then(function(){}, function(){ DetailsPage.soundIsFinished(); });
       parent.document.querySelectorAll('[class*="sound-btn"]').
         forEach(btn => btn.setAttribute('disabled', 'true'));
@@ -43,6 +49,7 @@ export class DetailsPage implements OnInit {
 
   static soundIsFinished() {
     DetailsPage.isPlaying = false;
+    BackgroundSound.setSoundVolume(0.4);
     parent.document.querySelectorAll('[class*="sound-btn"]').
       forEach(btn => btn.setAttribute('disabled', 'false'));
   }
