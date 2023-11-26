@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { BackgroundSound } from 'src/app/models/backgroundSound.component';
 import { AlfabetoService } from 'src/app/services/alfabeto.service';
 
 @Component({
@@ -11,6 +12,7 @@ export class HomePage implements OnInit {
 
   public letras: any;
   public digrafos: any;
+  public volumeIcon: string = BackgroundSound.icon;
 
   constructor(
     private alfabetoService: AlfabetoService,
@@ -20,6 +22,10 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.getLetras();
     this.getDigrafos();
+  }
+
+  toggleVolumeButton(){
+    BackgroundSound.toggleBackgroundSound();
   }
 
   getLetras() {

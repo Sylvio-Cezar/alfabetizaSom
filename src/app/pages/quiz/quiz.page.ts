@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { BackgroundSound } from 'src/app/models/backgroundSound.component';
 import { Letra } from 'src/app/models/letra.model';
 import { AlfabetoService } from 'src/app/services/alfabeto.service';
 
@@ -18,6 +19,7 @@ export class QuizPage implements OnInit {
   public totalPontuation: number = 0;
   public canShowSlide: boolean = true;
   public canGoNext: boolean = false;
+  public volumeIcon: string = BackgroundSound.icon;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -132,6 +134,10 @@ export class QuizPage implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  toggleVolumeButton(){
+    BackgroundSound.toggleBackgroundSound();
   }
 
 }
