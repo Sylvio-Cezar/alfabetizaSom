@@ -20,6 +20,9 @@
 <ion-content [fullscreen]="true" class="content-bg">
   <ion-grid style="padding: 20px;">
     <ion-row size="12">
+      <img class="details-img" [src]="letra.imagem" alt="Letra/Dígrafo">
+    </ion-row>
+    <ion-row size="12">
       <ion-col size="6" style="display: flex;">
         <ion-button [ngClass]="isPhoneme ? 'details-btn selected' : 'details-btn'"
           (click)="changePhoneme(true)">
@@ -34,9 +37,6 @@
           Nome
         </ion-button>
       </ion-col>
-    </ion-row>
-    <ion-row size="12">
-      <img class="details-img" [src]="letra.imagem" alt="Letra/Dígrafo">
     </ion-row>
     <ion-row *ngIf="!isPhoneme" size="12">
       <ion-col style="display: grid;">
