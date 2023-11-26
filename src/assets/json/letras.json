@@ -9,6 +9,10 @@
          {
            "fonema": "a",
            "som_fonema": "som_a_fonema.mp3"
+         },
+         {
+          "fonema": "ã",
+          "som_fonema": "som_a_til_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -63,6 +67,10 @@
          {
            "fonema": "c",
            "som_fonema": "som_c_fonema.mp3"
+         },
+         {
+          "fonema": "ç",
+          "som_fonema": "som_c_cedilha_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -104,7 +112,11 @@
        "fonemas": [
          {
            "fonema": "e",
-           "som_fonema": "som_e_fonema.mp3"
+           "som_fonema": "som_e.mp3"
+         },
+         {
+          "fonema": "é",
+          "som_fonema": "som_e_acento_agudo_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -158,7 +170,11 @@
        "fonemas": [
          {
            "fonema": "g",
-           "som_fonema": "som_g_fonema.mp3"
+           "som_fonema": "som_j_fonema.mp3"
+         },
+         {
+          "fonema": "gu",
+          "som_fonema": "som_gu_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -182,12 +198,7 @@
          "Hipopótamo",
          "Hospital"
        ],
-       "fonemas": [
-         {
-           "fonema": "h",
-           "som_fonema": "som_h_fonema.mp3"
-         }
-       ],
+       "fonemas": [],
        "possui_quiz": true,
        "possui_palavras": true,
        "possui_silabas": true
@@ -351,6 +362,10 @@
          {
            "fonema": "o",
            "som_fonema": "som_o_fonema.mp3"
+         },
+         {
+          "fonema": "ó",
+          "som_fonema": "som_o_acento_agudo_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -431,7 +446,11 @@
        "fonemas": [
          {
            "fonema": "r",
-           "som_fonema": "som_r_fonema.mp3"
+           "som_fonema": "som_r_pantera_fonema.mp3"
+         },
+         {
+          "fonema": "rr",
+          "som_fonema": "som_r_rato_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -553,8 +572,12 @@
        ],
        "fonemas": [
          {
-           "fonema": "w",
-           "som_fonema": "som_w_fonema.mp3"
+           "fonema": "v",
+           "som_fonema": "som_v_fonema.mp3"
+         },
+         {
+          "fonema": "u",
+          "som_fonema": "som_u_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -582,6 +605,10 @@
          {
            "fonema": "x",
            "som_fonema": "som_x_fonema.mp3"
+         },
+         {
+          "fonema": "z",
+          "som_fonema": "som_z_fonema.mp3"
          }
        ],
        "possui_quiz": true,
@@ -608,7 +635,7 @@
        "fonemas": [
          {
            "fonema": "y",
-           "som_fonema": "som_y_fonema.mp3"
+           "som_fonema": "som_i_fonema.mp3"
          }
        ],
        "possui_quiz": true,
