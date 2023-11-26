@@ -1,7 +1,7 @@
 <ion-header translucent>
   <ion-toolbar class="header-toolbar">
     <ion-buttons slot="start">
-      <ion-back-button size="large" defaultHref="/tabs/details" class="menu-buttons"></ion-back-button>
+      <ion-back-button size="large" defaultHref="/tabs/home/details" class="menu-buttons"></ion-back-button>
     </ion-buttons>
 
     <ion-title class="details-title">
@@ -26,7 +26,7 @@
       <ion-col style="display: flex; justify-content: space-around;" size="4">
         <p class="operation"
           [ngClass]="i == 1 ? 'operation-purple' :
-            i == 2 ? 'operation-yellow' :
+            i == 2 ? 'operation-yellow no-ml' :
             i == 3 ? 'operation-red' :
             i == 4 ? 'operation-blue' : 'operation-orange'">=</p>
         <p class="operation"
