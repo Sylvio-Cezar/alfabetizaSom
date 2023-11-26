@@ -20,6 +20,7 @@ export class QuizPage implements OnInit {
   public canShowSlide: boolean = true;
   public canGoNext: boolean = false;
   public volumeIcon: string = BackgroundSound.icon;
+  public snd = new Audio();
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -33,6 +34,7 @@ export class QuizPage implements OnInit {
       }
      });
      this.getImagens(0);
+     this.snd.addEventListener('ended', QuizPage.soundIsFinished);
   }
 
   getImagens(index: number) {
@@ -65,9 +67,18 @@ export class QuizPage implements OnInit {
     });
   }
 
-  goNext(index: any) {
+  async goNext(index: any) {
     const swiperEl = document.querySelector('swiper-container');
 
+    if (this.pontuation == 1) {
+      this.setAndPlaySound("quiz-acerto.mp3");
+    } else {
+      this.setAndPlaySound("quiz-erro.mp3");
+    }
+
+    const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
+
+    await delay(500);
     swiperEl?.swiper.slideNext();
 
     this.getImagens(index + 1);
@@ -136,7 +147,21 @@ export class QuizPage implements OnInit {
   ngOnInit() {
   }
 
-  toggleVolumeButton(){
+  playSound() {
+    BackgroundSound.setSoundVolume(0.1);
+    this.snd.play().then(function(){}, function(){ QuizPage.soundIsFinished(); });
+  }
+
+  static soundIsFinished() {
+    BackgroundSound.setSoundVolume(0.4);
+  }
+
+  setAndPlaySound(filename: string) {
+    this.snd.src = '../../assets/sounds/' + filename;
+    this.playSound();
+  }
+
+  toggleVolumeButton() {
     BackgroundSound.toggleBackgroundSound();
   }
 
