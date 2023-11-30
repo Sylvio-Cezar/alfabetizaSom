@@ -12,10 +12,6 @@ import { AppVersion } from '@ionic-native/app-version/ngx';
 
 import { register } from 'swiper/element/bundle';
 
-import { Platform } from '@ionic/angular';
-import { Location } from '@angular/common';
-import { BackgroundSound } from './models/backgroundSound.component';
-
 register();
 
 @NgModule({
@@ -26,30 +22,4 @@ register();
   bootstrap: [AppComponent],
 }) 
 
-export class AppModule {
-
-  constructor(
-    private platform: Platform,
-    private _location: Location
-  ) {
-    this.platform.backButton.subscribeWithPriority(10, () => {
-      this._location.back();
-    });
-
-    platform.ready().then(() => {
-
-      if (platform.is('cordova')){
-
-        this.platform.pause.subscribe(() => {
-          BackgroundSound.pauseSound()
-        });
-
-        this.platform.resume.subscribe(() => {
-          BackgroundSound.playSound();
-        });
-       }
-    });
-
-  }
-
-}
+export class AppModule {}
