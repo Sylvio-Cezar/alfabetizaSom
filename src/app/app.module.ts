@@ -20,5 +20,6 @@ register();
   imports: [BrowserModule, HttpClientModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, AppVersion],
   bootstrap: [AppComponent],
-})
+}) 
+
 export class AppModule {}
